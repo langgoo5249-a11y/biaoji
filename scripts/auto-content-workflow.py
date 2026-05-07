@@ -790,7 +790,7 @@ class WorkflowManager:
     def __init__(self):
         self.planner = ContentPlanner()
         self.publisher = AutoPublisher()
-        self.log_file = Path("/workspace/biaoji-website/scripts/content-workflow.log")
+        self.log_file = Path(_SCRIPT_DIR) / "content-workflow.log"
     
     def log(self, message: str):
         """记录日志"""
