@@ -41,3 +41,4 @@ npm-debug.log*
 *.zip
 *.tar.gz
 *.rar
+dist/
