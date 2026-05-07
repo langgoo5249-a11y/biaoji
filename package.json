@@ -1,0 +1,10 @@
+{
+  "name": "biaoji-website",
+  "version": "1.0.0",
+  "description": "号码标记清除服务网站 - 纯静态HTML",
+  "scripts": {
+    "build": "echo \"Static site, no build required\" && exit 0"
+  },
+  "keywords": ["号码标记", "标记清除", "骚扰电话"],
+  "license": "MIT"
+}
