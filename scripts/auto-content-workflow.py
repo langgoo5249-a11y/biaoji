@@ -141,11 +141,12 @@ class ContentPlanner:
                 slug = html_file.stem
                 self.used_titles.add(slug)
     
-    def generate_article_plan(self) -> ArticlePlan:
+    def generate_article_plan(self, max_retries: int = 50) -> Optional[ArticlePlan]:
         """生成文章策划方案"""
-        # 随机选择主题类别
-        topic_group = random.choice(ARTICLE_TOPICS)
-        category = topic_group["category"]
+        for _ in range(max_retries):
+            # 随机选择主题类别
+            topic_group = random.choice(ARTICLE_TOPICS)
+            category = topic_group["category"]
         
         # 根据类别选择模板和变量
         if category == "平台":
@@ -185,8 +186,7 @@ class ContentPlanner:
         # 检查标题是否已使用
         slug = self.generate_slug(title)
         if slug in self.used_titles:
-            # 重新生成
-            return self.generate_article_plan()
+            continue  # 跳过已使用的标题，尝试下一个
         
         # 确定字数
         word_count = random.randint(
@@ -203,6 +203,10 @@ class ContentPlanner:
             publish_date=datetime.date.today(),
             platforms=platforms,
         )
+        
+        # 所有主题都已使用
+        print("⚠️ 警告: 所有主题组合都已使用，无法生成新文章")
+        return None
     
     def generate_slug(self, title: str) -> str:
         """根据标题生成URL slug"""
@@ -815,6 +819,10 @@ class WorkflowManager:
             try:
                 # 1. 策划文章
                 plan = self.planner.generate_article_plan()
+                if plan is None:
+                    self.log("⚠️ 无法生成新文章（所有主题已使用）")
+                    break
+                
                 self.log(f"文章主题: {plan.title}")
                 self.log(f"文章类别: {plan.category}")
                 self.log(f"目标字数: {plan.target_word_count}")
