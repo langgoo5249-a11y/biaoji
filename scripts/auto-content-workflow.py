@@ -27,14 +27,17 @@ from pathlib import Path
 from typing import List, Dict, Optional
 from dataclasses import dataclass
 
-# 配置
+# 配置 - 使用相对路径，兼容本地和GitHub Actions
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+_PROJECT_ROOT = os.path.dirname(_SCRIPT_DIR)
+
 CONFIG = {
     "site_name": "号码标记清除网",
     "site_url": "https://biaoji.skillxm.cn",
     "author": "号码标记清除网",
     "email": "lang@skillxm.cn",
-    "blog_dir": "/workspace/biaoji-website/blog",
-    "images_dir": "/workspace/biaoji-website/images",
+    "blog_dir": os.path.join(_PROJECT_ROOT, "blog"),
+    "images_dir": os.path.join(_PROJECT_ROOT, "images"),
     "max_articles_per_day": 2,
     "min_articles_per_day": 1,
     "article_min_words": 1000,
