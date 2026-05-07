@@ -147,62 +147,62 @@ class ContentPlanner:
             # 随机选择主题类别
             topic_group = random.choice(ARTICLE_TOPICS)
             category = topic_group["category"]
-        
-        # 根据类别选择模板和变量
-        if category == "平台":
-            platform = random.choice(PLATFORMS)
-            variables = {
-                "platform": platform["name"],
-                "year": datetime.datetime.now().year,
-            }
-            platforms = [platform["name"]]
-        elif category == "行业":
-            industry = random.choice(INDUSTRIES)
-            variables = {
-                "industry": industry["full_name"],
-                "year": datetime.datetime.now().year,
-            }
-            platforms = [p["name"] for p in random.sample(PLATFORMS, 3)]
-        elif category == "问答":
-            variables = {
-                "year": datetime.datetime.now().year,
-                "num": random.choice([5, 7, 10]),
-            }
-            platforms = [p["name"] for p in random.sample(PLATFORMS, 4)]
-        else:  # 教程
-            platform = random.choice(PLATFORMS)
-            tag = random.choice(TAG_TYPES)
-            variables = {
-                "platform": platform["name"],
-                "tag": tag,
-                "year": datetime.datetime.now().year,
-            }
-            platforms = [platform["name"]]
-        
-        # 生成标题
-        title_template = random.choice(topic_group["titles"])
-        title = title_template.format(**variables)
-        
-        # 检查标题是否已使用
-        slug = self.generate_slug(title)
-        if slug in self.used_titles:
-            continue  # 跳过已使用的标题，尝试下一个
-        
-        # 确定字数
-        word_count = random.randint(
-            CONFIG["article_min_words"], 
-            CONFIG["article_max_words"]
-        )
-        
-        return ArticlePlan(
-            title=title,
-            category=category,
-            keywords=topic_group["keywords"],
-            target_word_count=word_count,
-            slug=slug,
-            publish_date=datetime.date.today(),
-            platforms=platforms,
-        )
+    
+            # 根据类别选择模板和变量
+            if category == "平台":
+                platform = random.choice(PLATFORMS)
+                variables = {
+                    "platform": platform["name"],
+                    "year": datetime.datetime.now().year,
+                }
+                platforms = [platform["name"]]
+            elif category == "行业":
+                industry = random.choice(INDUSTRIES)
+                variables = {
+                    "industry": industry["full_name"],
+                    "year": datetime.datetime.now().year,
+                }
+                platforms = [p["name"] for p in random.sample(PLATFORMS, 3)]
+            elif category == "问答":
+                variables = {
+                    "year": datetime.datetime.now().year,
+                    "num": random.choice([5, 7, 10]),
+                }
+                platforms = [p["name"] for p in random.sample(PLATFORMS, 4)]
+            else:  # 教程
+                platform = random.choice(PLATFORMS)
+                tag = random.choice(TAG_TYPES)
+                variables = {
+                    "platform": platform["name"],
+                    "tag": tag,
+                    "year": datetime.datetime.now().year,
+                }
+                platforms = [platform["name"]]
+            
+            # 生成标题
+            title_template = random.choice(topic_group["titles"])
+            title = title_template.format(**variables)
+            
+            # 检查标题是否已使用
+            slug = self.generate_slug(title)
+            if slug in self.used_titles:
+                continue  # 跳过已使用的标题，尝试下一个
+            
+            # 确定字数
+            word_count = random.randint(
+                CONFIG["article_min_words"], 
+                CONFIG["article_max_words"]
+            )
+            
+            return ArticlePlan(
+                title=title,
+                category=category,
+                keywords=topic_group["keywords"],
+                target_word_count=word_count,
+                slug=slug,
+                publish_date=datetime.date.today(),
+                platforms=platforms,
+            )
         
         # 所有主题都已使用
         print("⚠️ 警告: 所有主题组合都已使用，无法生成新文章")
