@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
     <!-- SEO Meta Tags -->
-    <title>号码标记清除_骚扰电话标记取消_全网号码标记查询与清除服务 - 标记清除网</title>
-    <meta name="description" content="专业号码标记清除服务，支持360、腾讯、百度、泰迪熊、电话邦等全网平台一键查询与清除。已帮助10万+用户成功清除号码标记，成功率98%，接通率提升80%。">
+    <title>号码标记清除_骚扰电话标记取消_全网号码标记查询与清除服务 - 号码标记清除网</title>
+    <meta name="description" content="专业号码标记清除服务，支持360、腾讯、百度、泰迪熊、电话邦等全网平台一键查询与清除。已帮助10万+用户成功清除号码标记，成功率98%，接通率提升80%">
     <meta name="keywords" content="号码标记清除,骚扰电话标记取消,号码标记怎么取消,手机号被标记,号码标记查询,企业号码标记清除,360号码标记,腾讯号码标记">
-    <meta name="author" content="标记清除网">
+    <meta name="author" content="号码标记清除网">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://biaoji.skillxm.cn/">
     
@@ -188,24 +188,64 @@
         }
         
         .btn-primary {
-            background: white;
-            color: #667eea;
+            background: linear-gradient(135deg, #ff6b35 0%, #ff8c42 100%);
+            color: white;
+            box-shadow: 0 4px 15px rgba(255, 107, 53, 0.4);
         }
         
         .btn-primary:hover {
             transform: translateY(-3px);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            box-shadow: 0 8px 25px rgba(255, 107, 53, 0.6);
+            background: linear-gradient(135deg, #e55a2b 0%, #ff7a35 100%);
         }
         
         .btn-secondary {
-            background: transparent;
+            background: linear-gradient(135deg, #00c9a7 0%, #00d9b5 100%);
             color: white;
-            border: 2px solid white;
+            box-shadow: 0 4px 15px rgba(0, 201, 167, 0.4);
         }
         
         .btn-secondary:hover {
-            background: white;
-            color: #667eea;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0, 201, 167, 0.6);
+            background: linear-gradient(135deg, #00b396 0%, #00c9a7 100%);
+        }
+        
+        /* Nav Buttons */
+        .nav-btn {
+            margin-left: 10px;
+        }
+        
+        .btn-nav-primary, .btn-nav-secondary {
+            display: inline-block;
+            padding: 8px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+        
+        .btn-nav-primary {
+            background: linear-gradient(135deg, #ff6b35 0%, #ff8c42 100%);
+            color: white !important;
+            box-shadow: 0 2px 10px rgba(255, 107, 53, 0.3);
+        }
+        
+        .btn-nav-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(255, 107, 53, 0.5);
+        }
+        
+        .btn-nav-secondary {
+            background: linear-gradient(135deg, #00c9a7 0%, #00d9b5 100%);
+            color: white !important;
+            box-shadow: 0 2px 10px rgba(0, 201, 167, 0.3);
+        }
+        
+        .btn-nav-secondary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0, 201, 167, 0.5);
         }
         
         /* Platforms Section */
@@ -245,7 +285,6 @@
         .platform-icon {
             width: 60px;
             height: 60px;
-            background: linear-gradient(135deg, #667eea, #764ba2);
             border-radius: 15px;
             display: flex;
             align-items: center;
@@ -254,6 +293,39 @@
             color: white;
             font-size: 24px;
             font-weight: bold;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+        }
+        
+        .platform-icon.icon-360 {
+            background: linear-gradient(135deg, #1a73e8 0%, #4285f4 100%);
+        }
+        
+        .platform-icon.icon-tencent {
+            background: linear-gradient(135deg, #0052d9 0%, #00a1ff 100%);
+        }
+        
+        .platform-icon.icon-baidu {
+            background: linear-gradient(135deg, #2932e1 0%, #4a90e2 100%);
+        }
+        
+        .platform-icon.icon-taidexiong {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ff8e8e 100%);
+        }
+        
+        .platform-icon.icon-dianhuabang {
+            background: linear-gradient(135deg, #00b4d8 0%, #90e0ef 100%);
+        }
+        
+        .platform-icon.icon-sogou {
+            background: linear-gradient(135deg, #ff6b35 0%, #ff8c42 100%);
+        }
+        
+        .platform-icon.icon-yidong {
+            background: linear-gradient(135deg, #0091ea 0%, #00b0ff 100%);
+        }
+        
+        .platform-icon.icon-liantong {
+            background: linear-gradient(135deg, #e60012 0%, #ff4757 100%);
         }
         
         .platform-name {
@@ -580,15 +652,17 @@
     <!-- Header -->
     <header>
         <div class="container header-content">
-            <a href="/" class="logo">标记<span>清除网</span></a>
+            <a href="/" class="logo">号码标记<span>清除网</span></a>
             <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
             <nav>
                 <ul id="nav-menu">
                     <li><a href="/">首页</a></li>
                     <li><a href="#services">服务介绍</a></li>
-                    <li><a href="/blog/">知识库</a></li>
+                    <li><a href="/blog/">说明文档</a></li>
                     <li><a href="#faq">常见问题</a></li>
                     <li><a href="#contact">联系我们</a></li>
+                    <li class="nav-btn"><a href="https://xbh5.open10086.com/#/?authorization=f91029a83a8758aa" class="btn-nav-primary" target="_blank">查询清除</a></li>
+                    <li class="nav-btn"><a href="https://xbh5.open10086.com/factor/#/pages/index/index?authorization=f91029a83a8758aa" class="btn-nav-secondary" target="_blank">法人核验</a></li>
                 </ul>
             </nav>
         </div>
@@ -626,35 +700,35 @@
             <h2 class="section-title">支持全网平台清除</h2>
             <div class="platform-grid">
                 <div class="platform-item">
-                    <div class="platform-icon">360</div>
+                    <div class="platform-icon icon-360">360</div>
                     <div class="platform-name">360手机卫士</div>
                 </div>
                 <div class="platform-item">
-                    <div class="platform-icon">腾</div>
+                    <div class="platform-icon icon-tencent">腾讯</div>
                     <div class="platform-name">腾讯手机管家</div>
                 </div>
                 <div class="platform-item">
-                    <div class="platform-icon">百</div>
+                    <div class="platform-icon icon-baidu">百度</div>
                     <div class="platform-name">百度手机卫士</div>
                 </div>
                 <div class="platform-item">
-                    <div class="platform-icon">泰</div>
+                    <div class="platform-icon icon-taidexiong">泰迪</div>
                     <div class="platform-name">泰迪熊</div>
                 </div>
                 <div class="platform-item">
-                    <div class="platform-icon">邦</div>
+                    <div class="platform-icon icon-dianhuabang">电话</div>
                     <div class="platform-name">电话邦</div>
                 </div>
                 <div class="platform-item">
-                    <div class="platform-icon">搜</div>
+                    <div class="platform-icon icon-sogou">搜狗</div>
                     <div class="platform-name">搜狗号码通</div>
                 </div>
                 <div class="platform-item">
-                    <div class="platform-icon">移</div>
+                    <div class="platform-icon icon-yidong">移动</div>
                     <div class="platform-name">移动高频</div>
                 </div>
                 <div class="platform-item">
-                    <div class="platform-icon">联</div>
+                    <div class="platform-icon icon-liantong">联通</div>
                     <div class="platform-name">联通标记</div>
                 </div>
             </div>
@@ -718,7 +792,7 @@
     <!-- Blog Section -->
     <section class="blog-section" id="blog">
         <div class="container">
-            <h2 class="section-title">号码标记知识库</h2>
+            <h2 class="section-title">号码标记说明文档</h2>
             <div class="blog-grid">
                 <article class="blog-card">
                     <div class="blog-card-content">
@@ -832,14 +906,14 @@
                 <div class="footer-section">
                     <h4>关于我们</h4>
                     <ul>
-                        <li><a href="/blog/">知识库</a></li>
+                        <li><a href="/blog/">说明文档</a></li>
                         <li><a href="#contact">联系方式</a></li>
                         <li><a href="#faq">常见问题</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>© 2025 标记清除网 biaoji.skillxm.cn | 专业号码标记查询与清除服务</p>
+                <p>© 2025 号码标记清除网 biaoji.skillxm.cn | 专业号码标记查询与清除服务</p>
                 <p style="margin-top: 10px;">联系我们：微信 SXLH-888 | 邮箱 lang@skillxm.cn</p>
             </div>
         </div>
