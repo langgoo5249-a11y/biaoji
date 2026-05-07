@@ -1,0 +1,81 @@
+name: 每日自动生成文章
+
+on:
+  schedule:
+    # 每天北京时间上午9:00执行（UTC 1:00）
+    - cron: '0 1 * * *'
+    # 每天北京时间下午15:00再执行一次（UTC 7:00）
+    - cron: '0 7 * * *'
+  workflow_dispatch:
+    # 支持手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  generate-article:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 配置Python环境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 生成文章
+        run: |
+          echo "=========================================="
+          echo "开始执行每日文章生成任务"
+          echo "时间: $(date '+%Y-%m-%d %H:%M:%S')"
+          echo "=========================================="
+          
+          python3 scripts/auto-content-workflow.py --now
+          
+          echo ""
+          echo "=========================================="
+          echo "文章生成完成"
+          echo "=========================================="
+
+      - name: 检查是否有新文章
+        id: check_changes
+        run: |
+          NEW_FILES=$(git status --porcelain | grep "^?? blog/" | wc -l)
+          echo "new_files=$NEW_FILES" >> $GITHUB_OUTPUT
+          
+          if [ "$NEW_FILES" -eq 0 ]; then
+            echo "没有新文章需要提交"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "发现 $NEW_FILES 篇新文章"
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: 提交并推送新文章
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "Auto Publisher"
+          git config user.email "auto@biaoji.skillxm.cn"
+          
+          # 添加新文章
+          git add blog/
+          
+          # 生成提交信息
+          DATE=$(date "+%Y-%m-%d")
+          ARTICLES=$(git status --porcelain | grep "^?? blog/" | sed 's/^?? blog\///' | sed 's/\.html$//' | tr '\n' ', ' | sed 's/, $//')
+          
+          git commit -m "content: $DATE 自动发布新文章
+
+          新增文章:
+          - $ARTICLES
+          
+          由GitHub Actions自动生成并发布"
+          
+          git push origin main
+          
+          echo "✅ 文章已推送到GitHub，Cloudflare Pages将自动部署"
