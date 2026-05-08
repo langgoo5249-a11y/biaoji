@@ -1,21 +1,17 @@
-# Cloudflare Pages 自定义HTTP响应头
+# Cloudflare Pages HTTP Headers
+# https://developers.cloudflare.com/pages/platform/headers/
 
-# 站点地图 - 确保正确的Content-Type，允许搜索引擎抓取
-/sitemap.xml
-  Content-Type: application/xml; charset=utf-8
+/*
   X-Robots-Tag: all
-
-# robots.txt
-/robots.txt
-  Content-Type: text/plain; charset=utf-8
-
-# HTML文件安全头
-/*.html
-  X-Frame-Options: SAMEORIGIN
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
 
-# 静态资源缓存
+/sitemap.xml
+  Content-Type: application/xml; charset=utf-8
+
+/robots.txt
+  Content-Type: text/plain; charset=utf-8
+
 /assets/*
   Cache-Control: public, max-age=31536000, immutable
 
