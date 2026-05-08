@@ -1,17 +1,17 @@
 # Cloudflare Pages 自定义HTTP响应头
 
-# 站点地图 - 确保正确的Content-Type
+# 站点地图 - 确保正确的Content-Type，允许搜索引擎抓取
 /sitemap.xml
   Content-Type: application/xml; charset=utf-8
-  X-Robots-Tag: noindex
+  X-Robots-Tag: all
 
 # robots.txt
 /robots.txt
   Content-Type: text/plain; charset=utf-8
 
-# HTML文件
+# HTML文件安全头
 /*.html
-  X-Frame-Options: DENY
+  X-Frame-Options: SAMEORIGIN
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
 

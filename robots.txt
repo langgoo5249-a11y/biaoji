@@ -1,5 +1,5 @@
 # robots.txt for biaoji.skillxm.cn
-# 更新时间: 2025-01-15
+# 更新时间: 2026-05-08
 
 User-agent: *
 Allow: /
@@ -11,29 +11,35 @@ Disallow: /*.json$
 
 # 允许爬取的目录
 Allow: /blog/
+Allow: /docs/
 Allow: /css/
 Allow: /js/
+Allow: /images/
 
 # Sitemap位置
 Sitemap: https://biaoji.skillxm.cn/sitemap.xml
 
-# 针对主要搜索引擎的特定规则
-User-agent: Baiduspider
-Allow: /
-Crawl-delay: 1
-
+# Googlebot 专用规则
 User-agent: Googlebot
 Allow: /
-Crawl-delay: 1
+Crawl-delay: 0
 
+# 百度蜘蛛
+User-agent: Baiduspider
+Allow: /
+
+# 搜狗蜘蛛
 User-agent: Sogou
 Allow: /
-Crawl-delay: 1
 
+# 360蜘蛛
 User-agent: 360Spider
 Allow: /
-Crawl-delay: 1
 
+# 字节跳动蜘蛛
 User-agent: Bytespider
 Allow: /
-Crawl-delay: 1
+
+# Bing 爬虫
+User-agent: Bingbot
+Allow: /
