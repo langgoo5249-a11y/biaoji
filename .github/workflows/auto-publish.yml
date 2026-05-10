@@ -1,4 +1,4 @@
-name: 每日自动生成文章
+name: 每日自动生成文章并推送搜索引擎
 
 on:
   schedule:
@@ -13,9 +13,9 @@ permissions:
   contents: write
 
 jobs:
-  generate-article:
+  generate-and-push:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
       - name: 检出代码
@@ -71,11 +71,39 @@ jobs:
           
           git commit -m "content: $DATE 自动发布新文章
 
-          新增文章:
-          - $ARTICLES
-          
-          由GitHub Actions自动生成并发布"
+新增文章:
+- $ARTICLES
+
+由GitHub Actions自动生成并发布"
           
           git push origin main
           
           echo "✅ 文章已推送到GitHub，Cloudflare Pages将自动部署"
+
+      - name: 等待部署完成
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          echo "等待Cloudflare Pages部署..."
+          sleep 120
+          echo "部署等待完成"
+
+      - name: 推送URL到百度
+        run: |
+          chmod +x scripts/baidu-push.sh
+          bash scripts/baidu-push.sh
+
+      - name: 推送URL到Bing
+        run: |
+          echo "=========================================="
+          echo "Bing URL推送"
+          echo "=========================================="
+          
+          # Bing Webmaster API (如果配置了的话)
+          # BING_API_KEY=${{ secrets.BING_API_KEY }}
+          
+          # 从sitemap获取URL
+          URLS=$(curl -s "https://biaoji.skillxm.cn/sitemap.xml" | grep -oP '<loc>\K[^<]+')
+          URL_COUNT=$(echo "$URLS" | wc -l)
+          
+          echo "准备提交 $URL_COUNT 个URL到Bing"
+          echo "注意: 需要在GitHub Secrets中配置BING_API_KEY才能启用Bing推送"
