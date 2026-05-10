@@ -12,8 +12,8 @@ Thumbs.db
 node_modules/
 bower_components/
 
-# 构建输出
-dist/
+# 构建输出（由Cloudflare Pages自动构建）
+# dist/
 build/
 *.min.js
 *.min.css
