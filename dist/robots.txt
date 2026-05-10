@@ -1,0 +1,35 @@
+# robots.txt for biaoji.skillxm.cn
+# Updated: 2026-05-09
+
+User-agent: *
+Allow: /
+
+Disallow: /admin/
+Disallow: /api/
+Disallow: /*.json$
+
+Allow: /blog/
+Allow: /docs/
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+Sitemap: https://biaoji.skillxm.cn/sitemap.xml
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Sogou
+Allow: /
+
+User-agent: 360Spider
+Allow: /
+
+User-agent: Bytespider
+Allow: /
