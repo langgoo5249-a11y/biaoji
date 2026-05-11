@@ -14,7 +14,7 @@ Allow: /css/
 Allow: /js/
 Allow: /images/
 
-Sitemap: https://biaoji.skillxm.cn/sitemap.xml
+Sitemap: https://biaoji.skillxm.cn/sitemap
 
 User-agent: Googlebot
 Allow: /

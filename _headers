@@ -5,7 +5,7 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
 
-/sitemap.xml
+/sitemap
   Content-Type: application/xml; charset=utf-8
 
 /robots.txt

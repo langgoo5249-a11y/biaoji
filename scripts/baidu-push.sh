@@ -8,8 +8,8 @@ echo "百度URL推送开始"
 echo "时间: $(date '+%Y-%m-%d %H:%M:%S')"
 echo "=========================================="
 
-# 从sitemap获取URL
-URLS=$(curl -s "https://biaoji.skillxm.cn/sitemap.xml" | grep -oP '<loc>\K[^<]+')
+# 从sitemap获取URL（使用不带扩展名的路径）
+URLS=$(curl -s "https://biaoji.skillxm.cn/sitemap" | grep -oP '<loc>\K[^<]+')
 
 if [ -z "$URLS" ]; then
     echo "❌ 错误: 无法从sitemap获取URL"
