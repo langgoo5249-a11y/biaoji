@@ -8,30 +8,20 @@ echo "百度URL推送开始"
 echo "时间: $(date '+%Y-%m-%d %H:%M:%S')"
 echo "=========================================="
 
-# 收集所有sitemap中的URL
-ALL_URLS=""
+# 从sitemap获取URL
+URLS=$(curl -s "https://biaoji.skillxm.cn/sitemap.xml" | grep -oP '<loc>\K[^<]+')
 
-for sitemap in "sitemap-pages.xml" "sitemap-blog.xml"; do
-    SM_URL="https://biaoji.skillxm.cn/${sitemap}"
-    URLS=$(curl -s "$SM_URL" | grep -oP '<loc>\K[^<]+')
-    if [ -n "$URLS" ]; then
-        ALL_URLS="${ALL_URLS}
-${URLS}"
-    fi
-done
-
-if [ -z "$ALL_URLS" ]; then
+if [ -z "$URLS" ]; then
     echo "❌ 错误: 无法从sitemap获取URL"
     exit 1
 fi
 
-ALL_URLS=$(echo "$ALL_URLS" | tr -s '\n' | grep -v '^$')
-URL_COUNT=$(echo "$ALL_URLS" | wc -l)
+URL_COUNT=$(echo "$URLS" | wc -l)
 echo "从sitemap获取到 $URL_COUNT 个URL"
 
 # 提交URL到百度
 echo "正在提交到百度..."
-RESPONSE=$(echo "$ALL_URLS" | curl -s -H "Content-Type:text/plain" --data-binary @- "$BAIDU_API_URL")
+RESPONSE=$(echo "$URLS" | curl -s -H "Content-Type:text/plain" --data-binary @- "$BAIDU_API_URL")
 
 echo "百度API响应: $RESPONSE"
 
