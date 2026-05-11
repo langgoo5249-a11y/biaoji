@@ -1,0 +1,11 @@
+# Cloudflare Pages 路由规则
+# 禁用 SPA 回退行为，确保静态文件正确返回
+
+# sitemap 文件不做重定向
+/sitemap.xml  200
+/sitemap-pages.xml  200
+/sitemap-blog.xml  200
+/robots.txt  200
+
+# 其他 404 页面回退到 index.html
+/*  /index.html  404
