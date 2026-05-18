@@ -1,5 +1,5 @@
 # robots.txt for biaoji.skillxm.cn
-# Updated: 2026-05-09
+# Updated: 2026-05-11
 
 User-agent: *
 Allow: /
