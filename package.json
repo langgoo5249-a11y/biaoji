@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "号码标记清除服务网站",
   "scripts": {
-    "build": "rm -rf dist && mkdir -p dist/blog && cp index.html dist/ && cp sitemap dist/ && cp sitemap.xml dist/ && cp robots.txt dist/ && cp _headers dist/ && cp _redirects dist/ && cp -r blog/* dist/blog/ && cp -r css dist/ 2>/dev/null; cp -r js dist/ 2>/dev/null; cp -r images dist/ 2>/dev/null; echo \"Build complete\""
+    "build": "rm -rf dist && mkdir -p dist/blog && cp index.html dist/ && cp favicon.ico dist/ && cp sitemap dist/ && cp sitemap.xml dist/ && cp robots.txt dist/ && cp _headers dist/ && cp _redirects dist/ && cp -r blog/* dist/blog/ && cp -r css dist/ 2>/dev/null; cp -r js dist/ 2>/dev/null; cp -r images dist/ 2>/dev/null; echo \"Build complete\""
   },
   "keywords": [],
   "license": "MIT"
