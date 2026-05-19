@@ -1,5 +1,5 @@
 # robots.txt for biaoji.skillxm.cn
-# Updated: 2026-05-11
+# Updated: 2026-05-19
 
 User-agent: *
 Allow: /
@@ -14,7 +14,7 @@ Allow: /css/
 Allow: /js/
 Allow: /images/
 
-Sitemap: https://biaoji.skillxm.cn/sitemap
+Sitemap: https://biaoji.skillxm.cn/sitemap.xml
 
 User-agent: Googlebot
 Allow: /
