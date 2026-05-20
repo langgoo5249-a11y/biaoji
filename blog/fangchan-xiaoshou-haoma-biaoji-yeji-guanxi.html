@@ -29,8 +29,8 @@
         "description": "房产中介电话被标记严重影响客户接听率，本文通过数据分析影响并提供应对策略",
         "author": {"@type": "Organization", "name": "号码标记清除网"},
         "publisher": {"@type": "Organization", "name": "号码标记清除网"},
-        "datePublished": "2026-05-18",
-        "dateModified": "2026-05-18"
+        "datePublished": "2026-05-19",
+        "dateModified": "2026-05-19"
     }
     </script>
     
@@ -60,6 +60,71 @@
         .cta-box { background: linear-gradient(135deg, #3498db 0%, #2980b9 100%); color: white; padding: 30px; border-radius: 10px; text-align: center; margin: 40px 0; }
         .cta-box a { color: #ffd700; font-weight: bold; }
         @media (max-width: 768px) { article { padding: 30px 20px; margin: -20px 10px 20px; } header h1 { font-size: 22px; } }
+    
+    /* 顶部导航 */
+    .top-nav {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        padding: 12px 0;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .nav-container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-logo {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .nav-links {
+        display: flex;
+        gap: 25px;
+    }
+    .nav-links a {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        opacity: 0.9;
+        transition: opacity 0.3s;
+    }
+    .nav-links a:hover {
+        opacity: 1;
+        text-decoration: underline;
+    }
+    @media (max-width: 768px) {
+        .nav-links { gap: 15px; }
+        .nav-links a { font-size: 13px; }
+    }
+
+    /* 返回首页按钮 */
+    .back-to-home {
+        max-width: 900px;
+        margin: 20px auto;
+        padding: 0 20px;
+    }
+    .back-to-home a {
+        display: inline-block;
+        color: #667eea;
+        text-decoration: none;
+        font-size: 14px;
+        padding: 8px 16px;
+        border: 1px solid #667eea;
+        border-radius: 20px;
+        transition: all 0.3s;
+    }
+    .back-to-home a:hover {
+        background: #667eea;
+        color: white;
+    }
+
     </style>
     
 <script>
@@ -73,10 +138,22 @@ var _hmt = _hmt || [];
 </script>
 </head>
 <body>
+    <!-- 顶部导航 -->
+    <nav class="top-nav">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">🏠 号码标记清除网</a>
+            <div class="nav-links">
+                <a href="/">首页</a>
+                <a href="/blog/">教程文档</a>
+                <a href="/docs/">帮助中心</a>
+            </div>
+        </div>
+    </nav>
+
     <header>
         <div class="container">
             <h1>房产销售号码被标记对业绩影响有多大？<br>数据揭秘与应对策略</h1>
-            <div class="meta">发布时间：2026年5月18日 | 作者：号码标记清除网</div>
+            <div class="meta">发布时间：2026年5月19日 | 作者：号码标记清除网</div>
         </div>
     </header>
     
