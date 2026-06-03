@@ -1,2 +1,4 @@
 # Cloudflare Pages 路由规则
-# 所有页面都是独立HTML文件，不需要SPA回退
+
+# 修复sitemap.xml带尾随斜杠返回HTML的问题
+/sitemap.xml/  /sitemap.xml  301
