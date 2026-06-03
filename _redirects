@@ -1,5 +1,2 @@
 # Cloudflare Pages 路由规则
-
-# SPA 路由回退 - 只针对页面路由，排除静态文件
-/blog/*  /blog/index.html  404
-/docs/*  /docs/index.html  404
+# 所有页面都是独立HTML文件，不需要SPA回退
