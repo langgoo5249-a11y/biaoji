@@ -1,9 +1,8 @@
 # robots.txt for biaoji.skillxm.cn
-# Updated: 2026-05-25
+# Updated: 2026-06-04
 
 User-agent: *
 Allow: /
-
 Disallow: /admin/
 Disallow: /api/
 Disallow: /*.json$
@@ -44,17 +43,29 @@ Allow: /
 User-agent: Yahoo! Slurp
 Allow: /
 
-# AI搜索引擎爬虫
+# AI搜索引擎爬虫 - 允许所有AI爬虫抓取
 User-agent: GPTBot
 Allow: /
 
 User-agent: ChatGPT-User
 Allow: /
 
+User-agent: ChatGPT-User
+Disallow:
+
+User-agent: OAI-SearchBot
+Allow: /
+
 User-agent: CCBot
 Allow: /
 
 User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
 Allow: /
 
 User-agent: PerplexityBot
@@ -66,5 +77,26 @@ Allow: /
 User-agent: Applebot
 Allow: /
 
+User-agent: Applebot-Extended
+Allow: /
+
 User-agent: Twitterbot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: PetalBot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Slurp
 Allow: /
