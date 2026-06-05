@@ -41,10 +41,15 @@ fi
 
 log "发现 $NEW_FILES 篇新文章"
 
-# 3. 更新sitemap.xml（可选）
+# 3. 更新sitemap.xml
 log "步骤3: 更新站点地图..."
-# 这里可以添加自动更新sitemap的逻辑
-# python3 "$SCRIPT_DIR/update-sitemap.py"
+python3 "$SCRIPT_DIR/update-sitemap.py"
+
+if [ $? -ne 0 ]; then
+    log "⚠️ 站点地图更新失败，但不影响其他流程"
+else
+    log "✅ 站点地图更新成功"
+fi
 
 # 4. Git提交
 log "步骤4: 提交到Git..."
