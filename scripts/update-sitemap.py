@@ -81,8 +81,10 @@ def generate_sitemap() -> str:
     blog_html_files = find_html_files(BLOG_DIR, exclude_files=["index.html", "index-2.html", "index-3.html", "index-4.html", "index-5.html"])
     for file_path in sorted(blog_html_files, key=lambda x: -os.path.getmtime(x)):
         filename = os.path.basename(file_path)
+        # 去掉.html后缀，使用clean URL
+        clean_filename = filename[:-5] if filename.endswith('.html') else filename
         urls.append({
-            "loc": f"{SITE_URL}/blog/{filename}",
+            "loc": f"{SITE_URL}/blog/{clean_filename}",
             "lastmod": get_file_modified_time(file_path),
             "changefreq": "monthly",
             "priority": "0.8"

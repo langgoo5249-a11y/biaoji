@@ -1,10 +1,11 @@
 # Cloudflare Pages HTTP Headers
-# Updated: 2026-06-04
+# Updated: 2026-06-05
+# 优化版：启用Cloudflare Edge缓存，移除ai=false，提升SEO性能
 
 # Sitemap - 必须放在 /* 之前确保优先级
 /sitemap.xml
   Content-Type: application/xml; charset=utf-8
-  Cache-Control: public, max-age=3600
+  Cache-Control: public, max-age=3600, s-maxage=3600
   X-Robots-Tag: all
 
 /sitemap
@@ -12,18 +13,67 @@
 
 /robots.txt
   Content-Type: text/plain; charset=utf-8
-  Cache-Control: public, max-age=86400
+  Cache-Control: public, max-age=86400, s-maxage=86400
 
-# 全局默认头部
-/*
+# 静态资源 - 长期缓存
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable, s-maxage=31536000
+  Vary: Accept-Encoding
+
+/images/*
+  Cache-Control: public, max-age=2592000, s-maxage=2592000
+  Vary: Accept-Encoding
+
+# 首页 - 2小时缓存，允许快速更新
+/
+  Cache-Control: public, max-age=7200, s-maxage=7200
   X-Robots-Tag: all
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
-  Permissions-Policy: ai=false, indexing=true
+  Permissions-Policy: 
   Strict-Transport-Security: max-age=31536000; includeSubDomains
 
-/assets/*
-  Cache-Control: public, max-age=31536000, immutable
+# 博客索引页 - 4小时缓存
+/blog/
+  Cache-Control: public, max-age=14400, s-maxage=14400
+  X-Robots-Tag: all
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: 
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
 
-/images/*
-  Cache-Control: public, max-age=2592000
+# 文档索引页 - 4小时缓存
+/docs/
+  Cache-Control: public, max-age=14400, s-maxage=14400
+  X-Robots-Tag: all
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: 
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+# 博客文章 - 12小时缓存（内容更新不频繁）
+/blog/*
+  Cache-Control: public, max-age=43200, s-maxage=43200
+  X-Robots-Tag: all
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: 
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+# 文档页面 - 12小时缓存
+/docs/*
+  Cache-Control: public, max-age=43200, s-maxage=43200
+  X-Robots-Tag: all
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: 
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+# 全局默认头部（其他未匹配路径）
+/*
+  Cache-Control: public, max-age=7200, s-maxage=7200
+  X-Robots-Tag: all
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: 
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
