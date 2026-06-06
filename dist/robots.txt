@@ -1,5 +1,5 @@
 # robots.txt for biaoji.skillxm.cn
-# Updated: 2026-06-04
+# Updated: 2026-06-05
 
 User-agent: *
 Allow: /
@@ -7,21 +7,26 @@ Disallow: /admin/
 Disallow: /api/
 Disallow: /*.json$
 
+# 明确允许的路径
 Allow: /blog/
 Allow: /docs/
 Allow: /css/
 Allow: /js/
 Allow: /images/
 
+# 站点地图位置
 Sitemap: https://biaoji.skillxm.cn/sitemap.xml
 
-# 常规搜索引擎爬虫
+# Googlebot配置
 User-agent: Googlebot
 Allow: /
+Crawl-delay: 1
 
-User-agent: Google-Extended
-Allow: /
+# Google Images
+User-agent: Googlebot-Image
+Allow: /images/
 
+# 常规搜索引擎爬虫配置
 User-agent: Bingbot
 Allow: /
 
@@ -40,7 +45,7 @@ Allow: /
 User-agent: YandexBot
 Allow: /
 
-User-agent: Yahoo! Slurp
+User-agent: Slurp
 Allow: /
 
 # AI搜索引擎爬虫 - 允许所有AI爬虫抓取
@@ -49,9 +54,6 @@ Allow: /
 
 User-agent: ChatGPT-User
 Allow: /
-
-User-agent: ChatGPT-User
-Disallow:
 
 User-agent: OAI-SearchBot
 Allow: /
@@ -89,14 +91,8 @@ Allow: /
 User-agent: cohere-ai
 Allow: /
 
-User-agent: Bytespider
-Allow: /
-
 User-agent: PetalBot
 Allow: /
 
 User-agent: DuckDuckBot
-Allow: /
-
-User-agent: Slurp
 Allow: /
