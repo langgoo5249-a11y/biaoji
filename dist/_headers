@@ -1,12 +1,11 @@
 # Cloudflare Pages HTTP Headers
-# Updated: 2026-06-05
-# 优化版：启用Cloudflare Edge缓存，移除ai=false，提升SEO性能
+# Updated: 2026-06-08
+# 优化版：只设置自定义头，避免与源站重复
 
-# Sitemap - 必须放在 /* 之前确保优先级
+# Sitemap
 /sitemap.xml
   Content-Type: application/xml; charset=utf-8
   Cache-Control: public, max-age=3600, s-maxage=3600
-  X-Robots-Tag: all
 
 /sitemap
   Content-Type: application/xml; charset=utf-8
@@ -24,56 +23,26 @@
   Cache-Control: public, max-age=2592000, s-maxage=2592000
   Vary: Accept-Encoding
 
-# 首页 - 2小时缓存，允许快速更新
+# 首页 - 2小时缓存
 /
   Cache-Control: public, max-age=7200, s-maxage=7200
-  X-Robots-Tag: all
-  X-Content-Type-Options: nosniff
-  Referrer-Policy: strict-origin-when-cross-origin
-  Permissions-Policy: 
-  Strict-Transport-Security: max-age=31536000; includeSubDomains
 
 # 博客索引页 - 4小时缓存
 /blog/
   Cache-Control: public, max-age=14400, s-maxage=14400
-  X-Robots-Tag: all
-  X-Content-Type-Options: nosniff
-  Referrer-Policy: strict-origin-when-cross-origin
-  Permissions-Policy: 
-  Strict-Transport-Security: max-age=31536000; includeSubDomains
 
 # 文档索引页 - 4小时缓存
 /docs/
   Cache-Control: public, max-age=14400, s-maxage=14400
-  X-Robots-Tag: all
-  X-Content-Type-Options: nosniff
-  Referrer-Policy: strict-origin-when-cross-origin
-  Permissions-Policy: 
-  Strict-Transport-Security: max-age=31536000; includeSubDomains
 
-# 博客文章 - 12小时缓存（内容更新不频繁）
+# 博客文章 - 12小时缓存
 /blog/*
   Cache-Control: public, max-age=43200, s-maxage=43200
-  X-Robots-Tag: all
-  X-Content-Type-Options: nosniff
-  Referrer-Policy: strict-origin-when-cross-origin
-  Permissions-Policy: 
-  Strict-Transport-Security: max-age=31536000; includeSubDomains
 
 # 文档页面 - 12小时缓存
 /docs/*
   Cache-Control: public, max-age=43200, s-maxage=43200
-  X-Robots-Tag: all
-  X-Content-Type-Options: nosniff
-  Referrer-Policy: strict-origin-when-cross-origin
-  Permissions-Policy: 
-  Strict-Transport-Security: max-age=31536000; includeSubDomains
 
-# 全局默认头部（其他未匹配路径）
+# 全局默认 - 2小时缓存
 /*
   Cache-Control: public, max-age=7200, s-maxage=7200
-  X-Robots-Tag: all
-  X-Content-Type-Options: nosniff
-  Referrer-Policy: strict-origin-when-cross-origin
-  Permissions-Policy: 
-  Strict-Transport-Security: max-age=31536000; includeSubDomains
