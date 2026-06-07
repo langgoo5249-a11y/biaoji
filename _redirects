@@ -1,18 +1,23 @@
 # Cloudflare Pages 路由规则
+# Updated: 2026-06-08
+
+# P0: .html后缀URL 301永久重定向到clean URL
+/blog/*.html      /blog/:splat    301
+/docs/*.html      /docs/:splat    301
 
 # 修复sitemap.xml带尾随斜杠返回HTML的问题
 /sitemap.xml/  /sitemap.xml  301
 
 # 中文文件名重定向到纯英文文件名（301永久重定向）
-/blog/360号码标记规则解析与清除技巧  /blog/360-haoma-biaoji-rules-jiexi.html  301
-/blog/360申诉入口在哪-手把手教你取消标记  /blog/360-shensu-rukou-zhinan.html  301
-/blog/保险销售必读-号码标记对企业的影响与应对  /blog/baoxian-xiaoshou-biaoji-yingxiang.html  301
-/blog/号码被标记为骚扰电话怎么办-360申诉指南  /blog/haoma-saorao-biaoji-360-shensu.html  301
-/blog/如何预防号码被标记-7个实用技巧分享  /blog/ruhe-yufang-haoma-biaoji.html  301
-/blog/电话客服号码被标记怎么办-行业专属解决方案  /blog/dianhua-kefu-biaoji-jiejue.html  301
-/blog/电话客服必读-号码标记对企业的影响与应对  /blog/dianhua-kefu-bidu-biaoji.html  301
-/blog/电话邦号码标记清除详细教程-从查询到申诉全流程  /blog/dianhuabang-biaoji-qingchu-jiaocheng.html  301
-/blog/腾讯号码标记清除-常见问题与解决方案  /blog/tengxun-biaoji-changjian-wenti.html  301
-/blog/腾讯号码标记清除详细教程-从查询到申诉全流程  /blog/tengxun-biaoji-qingchu-jiaocheng.html  301
-/blog/腾讯号码被误标-这样申诉最有效  /blog/tengxun-haoma-wubiao-shensu.html  301
-/blog/腾讯申诉入口在哪-手把手教你取消标记  /blog/tengxun-shensu-rukou-zhinan.html  301
+/blog/360号码标记规则解析与清除技巧  /blog/360-haoma-biaoji-rules-jiexi  301
+/blog/360申诉入口在哪-手把手教你取消标记  /blog/360-shensu-rukou-zhinan  301
+/blog/保险销售必读-号码标记对企业的影响与应对  /blog/baoxian-xiaoshou-biaoji-yingxiang  301
+/blog/号码被标记为骚扰电话怎么办-360申诉指南  /blog/haoma-saorao-biaoji-360-shensu  301
+/blog/如何预防号码被标记-7个实用技巧分享  /blog/ruhe-yufang-haoma-biaoji  301
+/blog/电话客服号码被标记怎么办-行业专属解决方案  /blog/dianhua-kefu-biaoji-jiejue  301
+/blog/电话客服必读-号码标记对企业的影响与应对  /blog/dianhua-kefu-bidu-biaoji  301
+/blog/电话邦号码标记清除详细教程-从查询到申诉全流程  /blog/dianhuabang-biaoji-qingchu-jiaocheng  301
+/blog/腾讯号码标记清除-常见问题与解决方案  /blog/tengxun-biaoji-changjian-wenti  301
+/blog/腾讯号码标记清除详细教程-从查询到申诉全流程  /blog/tengxun-biaoji-qingchu-jiaocheng  301
+/blog/腾讯号码被误标-这样申诉最有效  /blog/tengxun-haoma-wubiao-shensu  301
+/blog/腾讯申诉入口在哪-手把手教你取消标记  /blog/tengxun-shensu-rukou-zhinan  301
