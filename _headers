@@ -1,6 +1,6 @@
 # Cloudflare Pages HTTP Headers
-# Updated: 2026-06-08
-# 优化版：只设置自定义头，避免与源站重复
+# Updated: 2026-06-09
+# 修复版：避免规则重复覆盖，消除 cache-control 重复
 
 # Sitemap
 /sitemap.xml
@@ -14,6 +14,10 @@
   Content-Type: text/plain; charset=utf-8
   Cache-Control: public, max-age=86400, s-maxage=86400
 
+/llms.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=86400, s-maxage=86400
+
 # 静态资源 - 长期缓存
 /assets/*
   Cache-Control: public, max-age=31536000, immutable, s-maxage=31536000
@@ -23,17 +27,15 @@
   Cache-Control: public, max-age=2592000, s-maxage=2592000
   Vary: Accept-Encoding
 
-# 首页 - 2小时缓存
-/
-  Cache-Control: public, max-age=7200, s-maxage=7200
-
-# 博客索引页 - 4小时缓存
+# 列表/索引页 - 短缓存，方便新内容及时被收录
+/blog
+  Cache-Control: public, max-age=300, s-maxage=300
 /blog/
-  Cache-Control: public, max-age=14400, s-maxage=14400
-
-# 文档索引页 - 4小时缓存
+  Cache-Control: public, max-age=300, s-maxage=300
+/docs
+  Cache-Control: public, max-age=300, s-maxage=300
 /docs/
-  Cache-Control: public, max-age=14400, s-maxage=14400
+  Cache-Control: public, max-age=300, s-maxage=300
 
 # 博客文章 - 12小时缓存
 /blog/*
@@ -42,7 +44,3 @@
 # 文档页面 - 12小时缓存
 /docs/*
   Cache-Control: public, max-age=43200, s-maxage=43200
-
-# 全局默认 - 2小时缓存
-/*
-  Cache-Control: public, max-age=7200, s-maxage=7200
