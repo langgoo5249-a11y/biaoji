@@ -1,4 +1,49 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器文件
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 依赖目录
+node_modules/
+bower_components/
+
+# 构建输出（由Cloudflare Pages自动构建）
+# dist/
+build/
+*.min.js
+*.min.css
+
+# 日志文件
+*.log
+npm-debug.log*
+
+# 环境配置
+.env
+.env.local
+.env.*.local
+
+# 临时文件
+*.tmp
+*.temp
+.cache/
+
+# 备份文件
+*.bak
+*.backup
+*~
+
+# 压缩文件
+*.zip
+*.tar.gz
+*.rar
+dist/
+
+# Python
 __pycache__/
 *.pyc
 *.pyo
-.DS_Store
