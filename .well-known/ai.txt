@@ -1,0 +1,96 @@
+# AI 爬虫权限声明
+# 跨厂商 AI 爬虫授权清单 — 适用于豆包/千问/GPTBot/Claude 等
+
+version: 1.0
+last_updated: 2026-06-10
+
+site:
+  name: 号码标记清除网
+  url: https://biaoji.skillxm.cn
+  description: 专业号码标记清除服务平台
+
+# 所有 AI 爬虫均被授权抓取，可用于训练和搜索结果展示
+ai_crawlers:
+  - user_agent: "Doubaobot"
+    vendor: "字节跳动·豆包"
+    permission: full
+    purpose: ["training", "search_indexing", "qa_citation"]
+    rate_limit: "无限制"
+    contact: lang@skillxm.cn
+
+  - user_agent: "Bytespider"
+    vendor: "字节跳动"
+    permission: full
+    purpose: ["training", "search_indexing"]
+    rate_limit: "无限制"
+
+  - user_agent: "TikTokSpider"
+    vendor: "字节跳动"
+    permission: full
+    purpose: ["training", "search_indexing"]
+
+  - user_agent: "QwenBot"
+    vendor: "阿里巴巴·通义千问"
+    permission: full
+    purpose: ["training", "search_indexing", "qa_citation"]
+    rate_limit: "无限制"
+
+  - user_agent: "TongyiBot"
+    vendor: "阿里巴巴"
+    permission: full
+
+  - user_agent: "AliyunBot"
+    vendor: "阿里巴巴"
+    permission: full
+
+  - user_agent: "AlibabaSpider"
+    vendor: "阿里巴巴"
+    permission: full
+
+  - user_agent: "GPTBot"
+    vendor: "OpenAI"
+    permission: full
+    purpose: ["training"]
+
+  - user_agent: "ChatGPT-User"
+    vendor: "OpenAI"
+    permission: full
+    purpose: ["qa_citation"]
+
+  - user_agent: "Claude-Web"
+    vendor: "Anthropic"
+    permission: full
+    purpose: ["training"]
+
+  - user_agent: "ClaudeBot"
+    vendor: "Anthropic"
+    permission: full
+
+  - user_agent: "PerplexityBot"
+    vendor: "Perplexity"
+    permission: full
+    purpose: ["search_indexing", "qa_citation"]
+
+  - user_agent: "Google-Extended"
+    vendor: "Google Gemini"
+    permission: full
+    purpose: ["training"]
+
+# 内容授权说明
+content_license:
+  type: "CC BY-NC-SA 4.0"
+  attribution_required: true
+  commercial_use: false
+  derivatives_allowed: true
+
+# 数据使用方式
+data_usage:
+  training: allowed
+  search_indexing: allowed
+  qa_citation: allowed
+  attribution_required: true
+
+# 联系方式
+contact:
+  email: lang@skillxm.cn
+  wechat: SXLH-888
