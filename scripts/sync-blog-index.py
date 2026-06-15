@@ -22,13 +22,8 @@ CATEGORY_MAP = {
     'qiye-': '企业服务',
     'baoxian-': '保险行业',
     'jinrong-': '金融行业',
-    'xinyongka-': '金融行业',
     'jiaoyu-': '教育行业',
     'yiliao-': '医疗行业',
-    'chongwu-': '宠物行业',
-    'meirong-': '美容行业',
-    'caishui-': '财税服务',
-    'yujia-': '健身瑜伽',
     'waimai-': '外卖快递',
     'canyin-': '外卖快递',
     'kuaidi-': '外卖快递',
@@ -57,6 +52,13 @@ CATEGORY_MAP = {
     'wuyong-': '恶意标记',
     'wuqu-': '恶意标记',
     'weizhang-': '违法案例',
+    'xinyongka-': '金融行业',
+    'chongwu-': '生活服务',
+    'meirong-': '生活服务',
+    'caishui-': '企业服务',
+    'yujia-': '生活服务',
+    'liuxue-': '教育培训',
+    'posji-': '收单支付',
 }
 
 # 颜色渐变(8种)
@@ -190,18 +192,36 @@ def update_blog_index():
     new_article_html = '\n'.join([generate_article_card(art, i) for i, art in enumerate(articles)])
 
     # 5. 替换原文章列表区域
-    # 找到 <!-- 0.  开头的注释到 </div> (article-grid 结束)
-    pattern = re.compile(
-        r'(<!-- Articles -->\s*<div>\s*<div class="article-grid">).*?(\s*</div>\s*</div>)',
-        re.DOTALL
-    )
+    # 用更可靠的边界标记:从 <!-- Articles --> 到 <!-- Sidebar -->
+    # 然后取文章区域末尾的两个 </div> 中的第一个作为 article-grid 结束
+    start_marker = '<!-- Articles -->'
+    end_marker = '<!-- Sidebar -->'
+    start_pos = content.find(start_marker)
+    end_pos = content.find(end_marker)
 
-    if pattern.search(content):
-        new_content = pattern.sub(r'\1\n' + new_article_html + r'\2', content, count=1)
-        print("    ✓ 找到文章列表区域并替换")
-    else:
-        print("    ✗ 未找到文章列表区域，请检查blog/index.html结构")
+    if start_pos == -1 or end_pos == -1:
+        print("    ✗ 未找到明确的边界标记")
         return False
+
+    # 在 [start_pos, end_pos] 范围内找 article-grid 结束位置（倒数第二个 </div>）
+    section = content[start_pos:end_pos]
+    all_divs = [m.end() for m in re.finditer(r'</div>', section)]
+    if len(all_divs) < 2:
+        print("    ✗ 找到的 </div> 数量不足")
+        return False
+    article_grid_end_in_section = all_divs[-2]
+
+    # 构造新内容
+    new_content_start = content[:start_pos]
+    header = '<!-- Articles -->\n        <div>\n            <div class="article-grid">\n'
+    # footer_section 包含 article-grid 关闭 </div> + wrapper 关闭 </div> + 中间空白
+    # 末尾追加 Sidebar 注释，再拼接 Sidebar 之后的内容
+    footer_section = content[start_pos + article_grid_end_in_section:end_pos]
+    sidebar_comment = '<!-- Sidebar -->'
+    new_content = (new_content_start + header + new_article_html + '\n            '
+                   + footer_section + sidebar_comment
+                   + content[end_pos + len(sidebar_comment):])
+    print("    ✓ 找到文章列表区域并替换")
 
     # 6. 添加 ItemList 结构化数据
     print("\n[4] 添加 ItemList 结构化数据...")

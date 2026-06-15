@@ -68,6 +68,10 @@
 - [金融贷款号码标记风控指南](https://biaoji.skillxm.cn/blog/jinrong-daikuan-haoma-biaoji-fengkong)
 - [信用卡推广号码被标记怎么清除？银行电销外呼标记申诉完整指南](https://biaoji.skillxm.cn/blog/xinyongka-tuiguang-haoma-biaoji-shenzhong) — 银行电销/消费金融/信用卡中心外呼号码清除实战（3 个真实银行案例 + 5 大平台申诉）
 
+### 收单支付
+
+- [POS 机号码被标记怎么清除？聚合支付/收单代理外呼标记申诉完整指南](https://biaoji.skillxm.cn/blog/posji-tuiguang-haoma-biaoji-qingchu) — POS 机推广/聚合支付/刷卡机代理外呼号码清除（广州何总 6 号 + 深圳林总 3 号 + 成都周总 4 号 3 个真实案例）
+
 ### 财税代账
 
 - [代账公司号码被标记怎么清除？财税/工商代办外呼标记申诉完整指南](https://biaoji.skillxm.cn/blog/caishui-daizhang-haoma-biaoji-qingchu) — 代账公司/财税公司/工商注册代理记账外呼号码清除（陈会计 6 号 + 林所长 3 号 + 王总 4 号 3 个真实案例）
@@ -114,10 +118,13 @@
 - [餐饮外卖电话号码标记清除](https://biaoji.skillxm.cn/blog/canyin-waimai-dianhua-biaoji-qingchu)
 - [电商直播电话号码标记清除](https://biaoji.skillxm.cn/blog/dianshang-zhibo-dianhua-biaoji-qingchu)
 - [HR 招聘电话号码标记清除](https://biaoji.skillxm.cn/blog/hr-zhaopin-dianhua-biaoji-qingchu)
-- [律师电话号码标记清除](https://biaoji.skillxm.cn/blog/lvshi-dianhua-biaoji-qingchu)
+- [感情电话号码标记清除](https://biaoji.skillxm.cn/blog/ganxi-dianhua-biaoji-qingchu)
+
+### 教育培训
+
+- [留学中介号码被标记怎么清除？出国留学机构外呼标记申诉完整指南](https://biaoji.skillxm.cn/blog/liuxue-zhongjie-haoma-biaoji-qingchu) — 留学中介/出国留学机构/语培销售外呼号码清除（南京李老师 5 号 + 杭州陈主任 2 号 + 深圳吴总 3 号 3 个真实案例）
 - [教育培训机构号码标记](https://biaoji.skillxm.cn/blog/jiaoyu-jigou-biaoji)
 - [教育培训号码标记招生](https://biaoji.skillxm.cn/blog/jiaoyu-peixun-haoma-biaoji-zhaosheng)
-- [感情电话号码标记清除](https://biaoji.skillxm.cn/blog/ganxi-dianhua-biaoji-qingchu)
 
 ### 外卖快递
 
@@ -138,5 +145,5 @@
 
 ## 数据更新
 
-最近更新：2026-06-10
-文章总数：88 篇（其中行业方案 12 篇，清除教程 68 篇，常见问题 3 篇，真实案例 4 篇，清除攻略 2 篇）
+最近更新：2026-06-15
+文章总数：90 篇（其中行业方案 14 篇，清除教程 70 篇，常见问题 3 篇，真实案例 4 篇，清除攻略 2 篇）

@@ -55,12 +55,17 @@
       "keywords": [
         "金融行业号码标记",
         "信用卡推广号码被标记",
+        "POS机推广号码被标记",
+        "聚合支付电话标记",
+        "收单代理号码清除",
         "保险代理人号码标记",
         "医疗行业号码标记",
         "美容美发电话标记",
         "宠物店号码被标记",
         "宠物美容标记",
-        "宠物寄养号码"
+        "宠物寄养号码",
+        "留学中介号码被标记",
+        "出国留学机构电话标记"
       ],
       "pillar_url": "https://biaoji.skillxm.cn/blog/jinrong-hangye-biaoji"
     },
@@ -76,14 +81,14 @@
     }
   ],
   "content_stats": {
-    "total_articles": 88,
+    "total_articles": 90,
     "platform_guides": 20,
-    "industry_solutions": 34,
+    "industry_solutions": 36,
     "individual_guides": 18,
     "common_questions": 6,
     "prevention_guides": 4,
     "case_studies": 4,
-    "last_updated": "2026-06-10"
+    "last_updated": "2026-06-15"
   },
   "knowledge_graph": {
     "@context": "https://schema.org",
@@ -100,6 +105,9 @@
       "企业号码认证",
       "高频呼叫标记处理",
       "信用卡外呼标记",
+      "POS机推广号码清除",
+      "聚合支付电话标记",
+      "留学中介号码被标记",
       "宠物店号码标记"
     ]
   }
