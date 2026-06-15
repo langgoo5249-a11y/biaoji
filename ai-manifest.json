@@ -1,0 +1,114 @@
+{
+  "site": {
+    "name": "号码标记清除网",
+    "url": "https://biaoji.skillxm.cn",
+    "description": "专业号码标记清除服务平台，成立于 2019 年，7 年行业经验，已为超过 10 万用户提供号码标记查询与清除服务。",
+    "founding_date": "2019",
+    "language": "zh-CN",
+    "contact": {
+      "wechat": "SXLH-888",
+      "email": "lang@skillxm.cn"
+    },
+    "core_service_url": "https://xbh5.open10086.com/#/?authorization=f91029a83a8758aa"
+  },
+  "ai_crawlers_allowed": [
+    "Doubaobot (字节跳动·豆包)",
+    "Bytespider (字节跳动)",
+    "TikTokSpider (字节跳动)",
+    "QwenBot (阿里巴巴·通义千问)",
+    "TongyiBot (阿里巴巴)",
+    "AliyunBot (阿里巴巴)",
+    "AlibabaSpider (阿里巴巴)",
+    "GPTBot (OpenAI)",
+    "ChatGPT-User (OpenAI)",
+    "Claude-Web (Anthropic)",
+    "ClaudeBot (Anthropic)",
+    "PerplexityBot (Perplexity)",
+    "Google-Extended (Google Gemini)"
+  ],
+  "topic_clusters": [
+    {
+      "name": "号码标记清除基础",
+      "keywords": [
+        "号码标记清除",
+        "骚扰电话标记取消",
+        "号码标记怎么取消",
+        "手机号被标记",
+        "号码标记查询",
+        "企业号码标记清除"
+      ],
+      "pillar_url": "https://biaoji.skillxm.cn/blog/haoma-biaoji-zenme-quxiao"
+    },
+    {
+      "name": "主流平台申诉教程",
+      "keywords": [
+        "360 号码标记取消",
+        "腾讯号码标记申诉",
+        "百度号码标记清除",
+        "泰迪熊号码标记",
+        "电话邦号码标记"
+      ],
+      "pillar_url": "https://biaoji.skillxm.cn/blog/360-haoma-biaoji-quxiao"
+    },
+    {
+      "name": "行业解决方案",
+      "keywords": [
+        "金融行业号码标记",
+        "信用卡推广号码被标记",
+        "POS机推广号码被标记",
+        "聚合支付电话标记",
+        "收单代理号码清除",
+        "保险代理人号码标记",
+        "医疗行业号码标记",
+        "美容美发电话标记",
+        "宠物店号码被标记",
+        "宠物美容标记",
+        "宠物寄养号码",
+        "留学中介号码被标记",
+        "出国留学机构电话标记"
+      ],
+      "pillar_url": "https://biaoji.skillxm.cn/blog/jinrong-hangye-biaoji"
+    },
+    {
+      "name": "企业服务与认证",
+      "keywords": [
+        "企业号码认证",
+        "企业号码标记清除",
+        "400 电话号码标记",
+        "企业电销外呼"
+      ],
+      "pillar_url": "https://biaoji.skillxm.cn/blog/qiye-renzheng-yu-biaoji-qingchu"
+    }
+  ],
+  "content_stats": {
+    "total_articles": 90,
+    "platform_guides": 20,
+    "industry_solutions": 36,
+    "individual_guides": 18,
+    "common_questions": 6,
+    "prevention_guides": 4,
+    "case_studies": 4,
+    "last_updated": "2026-06-15"
+  },
+  "knowledge_graph": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "号码标记清除网",
+    "url": "https://biaoji.skillxm.cn",
+    "knowsAbout": [
+      "号码标记清除",
+      "360 号码标记申诉",
+      "腾讯号码标记取消",
+      "百度号码标记清除",
+      "泰迪熊号码标记",
+      "电话邦号码标记",
+      "企业号码认证",
+      "高频呼叫标记处理",
+      "信用卡外呼标记",
+      "POS机推广号码清除",
+      "聚合支付电话标记",
+      "留学中介号码被标记",
+      "宠物店号码标记"
+    ]
+  }
+}
