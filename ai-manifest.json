@@ -65,7 +65,10 @@
         "宠物美容标记",
         "宠物寄养号码",
         "留学中介号码被标记",
-        "出国留学机构电话标记"
+        "出国留学机构电话标记",
+        "婚庆公司号码被标记",
+        "婚纱摄影电话标记",
+        "婚礼策划号码清除"
       ],
       "pillar_url": "https://biaoji.skillxm.cn/blog/jinrong-hangye-biaoji"
     },
@@ -81,9 +84,9 @@
     }
   ],
   "content_stats": {
-    "total_articles": 90,
+    "total_articles": 92,
     "platform_guides": 20,
-    "industry_solutions": 36,
+    "industry_solutions": 38,
     "individual_guides": 18,
     "common_questions": 6,
     "prevention_guides": 4,
@@ -108,7 +111,9 @@
       "POS机推广号码清除",
       "聚合支付电话标记",
       "留学中介号码被标记",
-      "宠物店号码标记"
+      "宠物店号码标记",
+      "婚庆公司号码被标记",
+      "律师号码标记"
     ]
   }
 }
