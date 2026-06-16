@@ -62,6 +62,8 @@ CATEGORY_MAP = {
     'hunqing-': '婚庆摄影',
     'lvshi-': '法律服务',
     'zhuangxiu-': '装修家居',
+    'zhaopin-': '招聘猎头',
+    'yimei-': '医美机构',
 }
 
 # 颜色渐变(8种)
