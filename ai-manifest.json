@@ -68,7 +68,14 @@
         "出国留学机构电话标记",
         "婚庆公司号码被标记",
         "婚纱摄影电话标记",
-        "婚礼策划号码清除"
+        "婚礼策划号码清除",
+        "律师号码标记",
+        "装修公司号码被标记",
+        "家居建材电话标记",
+        "室内设计号码清除",
+        "房产中介号码被标记",
+        "房地产经纪电话标记",
+        "置业顾问号码清除"
       ],
       "pillar_url": "https://biaoji.skillxm.cn/blog/jinrong-hangye-biaoji"
     },
@@ -84,14 +91,14 @@
     }
   ],
   "content_stats": {
-    "total_articles": 92,
+    "total_articles": 94,
     "platform_guides": 20,
-    "industry_solutions": 38,
+    "industry_solutions": 40,
     "individual_guides": 18,
     "common_questions": 6,
     "prevention_guides": 4,
     "case_studies": 4,
-    "last_updated": "2026-06-15"
+    "last_updated": "2026-06-16"
   },
   "knowledge_graph": {
     "@context": "https://schema.org",
@@ -113,7 +120,9 @@
       "留学中介号码被标记",
       "宠物店号码标记",
       "婚庆公司号码被标记",
-      "律师号码标记"
+      "律师号码标记",
+      "装修公司号码被标记",
+      "房产中介号码标记"
     ]
   }
 }

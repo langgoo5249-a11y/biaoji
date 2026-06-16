@@ -61,6 +61,7 @@ CATEGORY_MAP = {
     'posji-': '收单支付',
     'hunqing-': '婚庆摄影',
     'lvshi-': '法律服务',
+    'zhuangxiu-': '装修家居',
 }
 
 # 颜色渐变(8种)
