@@ -1236,5 +1236,227 @@ var _hmt = _hmt || [];
             });
         });
     </script>
+
+    <!-- 悬浮小程序按钮 + 弹窗 -->
+    <style>
+        .mini-program-fab {
+            position: fixed;
+            bottom: 80px;
+            right: 20px;
+            z-index: 9999;
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #07c160, #06ad56);
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 16px rgba(7, 193, 96, 0.4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            animation: fab-pulse 2s infinite;
+        }
+        .mini-program-fab:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 24px rgba(7, 193, 96, 0.5);
+        }
+        .mini-program-fab:active {
+            transform: scale(0.95);
+        }
+        .mini-program-fab svg {
+            width: 28px;
+            height: 28px;
+        }
+        @keyframes fab-pulse {
+            0%, 100% { box-shadow: 0 4px 16px rgba(7, 193, 96, 0.4); }
+            50% { box-shadow: 0 4px 24px rgba(7, 193, 96, 0.6); }
+        }
+
+        /* 弹窗遮罩 */
+        .mini-program-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 10000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+        .mini-program-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* 弹窗内容 */
+        .mini-program-modal {
+            background: #fff;
+            border-radius: 16px;
+            padding: 32px 28px 24px;
+            text-align: center;
+            max-width: 320px;
+            width: 90%;
+            position: relative;
+            transform: scale(0.8) translateY(20px);
+            transition: transform 0.3s ease;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+        }
+        .mini-program-overlay.active .mini-program-modal {
+            transform: scale(1) translateY(0);
+        }
+
+        .mini-program-modal .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 14px;
+            width: 28px;
+            height: 28px;
+            border: none;
+            background: #f5f5f5;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            color: #999;
+            transition: background 0.2s;
+        }
+        .mini-program-modal .close-btn:hover {
+            background: #eee;
+            color: #666;
+        }
+
+        .mini-program-modal h3 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #333;
+            margin: 0 0 6px;
+        }
+        .mini-program-modal p {
+            font-size: 13px;
+            color: #999;
+            margin: 0 0 20px;
+        }
+        .mini-program-modal .qrcode-wrapper {
+            background: #f8f8f8;
+            border-radius: 12px;
+            padding: 16px;
+            display: inline-block;
+            margin-bottom: 16px;
+        }
+        .mini-program-modal .qrcode-wrapper img {
+            width: 180px;
+            height: 180px;
+            display: block;
+            border-radius: 8px;
+        }
+        .mini-program-modal .scan-tip {
+            font-size: 14px;
+            color: #07c160;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+        }
+        .mini-program-modal .scan-tip svg {
+            width: 18px;
+            height: 18px;
+        }
+
+        @media (max-width: 480px) {
+            .mini-program-fab {
+                bottom: 60px;
+                right: 16px;
+                width: 50px;
+                height: 50px;
+            }
+            .mini-program-modal {
+                padding: 28px 24px 20px;
+            }
+            .mini-program-modal .qrcode-wrapper img {
+                width: 160px;
+                height: 160px;
+            }
+        }
+    </style>
+
+    <button class="mini-program-fab" id="miniProgramFab" title="微信小程序">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8.691 2.188C3.891 2.188 0 5.476 0 9.53c0 2.212 1.17 4.203 3.002 5.55a.59.59 0 0 1 .213.665l-.397 1.48c-.019.07-.048.141-.048.213 0 .163.13.295.295.295a.326.326 0 0 0 .167-.054l1.903-1.114a.864.864 0 0 1 .717-.098 10.16 10.16 0 0 0 2.837.403c.276 0 .543-.027.811-.05-.857-2.578.157-4.968 1.932-6.446C9.559 3.468 8.691 2.188 8.691 2.188zm-2.87 4.401a.964.964 0 1 1 0-1.928.964.964 0 0 1 0 1.928zm5.742 0a.964.964 0 1 1 0-1.928.964.964 0 0 1 0 1.928zM21.977 9.57c0-3.292-3.211-5.964-7.172-5.964-.543 0-1.07.06-1.58.166C14.343 5.49 16.532 7.69 16.532 10.5c0 2.136-1.086 4.046-2.77 5.328a.49.49 0 0 0 .178.553l-.33 1.233a.45.45 0 0 0-.04.178c0 .136.108.246.245.246a.27.27 0 0 0 .139-.045l1.582-.926a.716.716 0 0 1 .596-.081 8.45 8.45 0 0 0 2.355.334c3.96 0 7.172-2.672 7.172-5.964 0-.022-.003-.043-.003-.065 0-.022.003-.043.003-.065zm-9.608-3.616a.802.802 0 1 1 0-1.604.802.802 0 0 1 0 1.604zm4.872 0a.802.802 0 1 1 0-1.604.802.802 0 0 1 0 1.604z"/></svg>
+    </button>
+
+    <div class="mini-program-overlay" id="miniProgramOverlay">
+        <div class="mini-program-modal">
+            <button class="close-btn" id="miniProgramClose">&times;</button>
+            <h3>微信扫码使用小程序</h3>
+            <p>更便捷的号码标记查询与清除服务</p>
+            <div class="qrcode-wrapper">
+                <img src="/images/wechat-miniprogram-qrcode.jpg" alt="微信小程序码">
+            </div>
+            <div class="scan-tip">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9.5 6.5v1.5c0 .83-.67 1.5-1.5 1.5H6.5c-.83 0-1.5-.67-1.5-1.5V6.5C5 5.67 5.67 5 6.5 5H8c.83 0 1.5.67 1.5 1.5zm-3 0h1.5v1.5H6.5V6.5zM19 6.5v1.5c0 .83-.67 1.5-1.5 1.5h-1.5c-.83 0-1.5-.67-1.5-1.5V6.5c0-.83.67-1.5 1.5-1.5h1.5c.83 0 1.5.67 1.5 1.5zm-3 0h1.5v1.5H16V6.5zM9.5 16v1.5c0 .83-.67 1.5-1.5 1.5H6.5c-.83 0-1.5-.67-1.5-1.5V16c0-.83.67-1.5 1.5-1.5H8c.83 0 1.5.67 1.5 1.5zm-3 0h1.5v1.5H6.5V16zm12-3.5c0 .28-.22.5-.5.5h-1c-.28 0-.5-.22-.5-.5v-1c0-.28.22-.5.5-.5h1c.28 0 .5.22.5.5v1zm-3 0c0 .28-.22.5-.5.5h-1c-.28 0-.5-.22-.5-.5v-1c0-.28.22-.5.5-.5h1c.28 0 .5.22.5.5v1zm-6 0c0 .28-.22.5-.5.5H8c-.28 0-.5-.22-.5-.5v-1c0-.28.22-.5.5-.5h.5c.28 0 .5.22.5.5v1zm-3 0c0 .28-.22.5-.5.5H5c-.28 0-.5-.22-.5-.5v-1c0-.28.22-.5.5-.5h.5c.28 0 .5.22.5.5v1zm9 3c0 .28-.22.5-.5.5h-1c-.28 0-.5-.22-.5-.5v-1c0-.28.22-.5.5-.5h1c.28 0 .5.22.5.5v1z"/></svg>
+                打开微信扫一扫
+            </div>
+        </div>
+    </div>
+
+    <script>
+    (function() {
+        var STORAGE_KEY = 'miniProgramPopupLastShown';
+        var INTERVAL = 24 * 60 * 60 * 1000; // 24小时
+
+        var fab = document.getElementById('miniProgramFab');
+        var overlay = document.getElementById('miniProgramOverlay');
+        var closeBtn = document.getElementById('miniProgramClose');
+
+        function showModal() {
+            overlay.classList.add('active');
+            localStorage.setItem(STORAGE_KEY, Date.now().toString());
+        }
+
+        function hideModal() {
+            overlay.classList.remove('active');
+        }
+
+        // 点击悬浮按钮显示弹窗
+        fab.addEventListener('click', showModal);
+
+        // 点击关闭按钮
+        closeBtn.addEventListener('click', hideModal);
+
+        // 点击遮罩关闭
+        overlay.addEventListener('click', function(e) {
+            if (e.target === overlay) hideModal();
+        });
+
+        // ESC关闭
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') hideModal();
+        });
+
+        // 24小时自动弹窗
+        try {
+            var lastShown = localStorage.getItem(STORAGE_KEY);
+            if (!lastShown || (Date.now() - parseInt(lastShown)) > INTERVAL) {
+                setTimeout(function() {
+                    showModal();
+                }, 3000); // 页面加载3秒后自动弹出
+            }
+        } catch(e) {
+            // localStorage不可用时3秒后弹出
+            setTimeout(function() {
+                showModal();
+            }, 3000);
+        }
+    })();
+    </script>
 </body>
 </html>
