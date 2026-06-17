@@ -42,8 +42,4 @@ npm-debug.log*
 *.tar.gz
 *.rar
 dist/
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
+scripts/__pycache__/
