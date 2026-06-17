@@ -2,8 +2,11 @@
 <html lang="zh-CN">
 <head>
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="icon" type="image/png" sizes="64x64" href="/images/favicon.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/webp" sizes="64x64" href="/images/favicon.webp">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.webp">
+    <!-- 预连接优化 -->
+    <link rel="preconnect" href="https://biaoji.skillxm.cn">
+    <link rel="dns-prefetch" href="//biaoji.skillxm.cn">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,12 +29,12 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://biaoji.skillxm.cn/">
     <meta property="og:locale" content="zh_CN">
-    <meta property="og:image" content="https://biaoji.skillxm.cn/images/og-cover.jpg">    
+    <meta property="og:image" content="https://biaoji.skillxm.cn/images/og-cover.webp">
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="号码标记清除_骚扰电话标记取消_专业全网清除服务">
     <meta name="twitter:description" content="专业号码标记清除服务，支持360、腾讯、百度等全网平台，成功率98%，接通率提升80%">
-    <meta name="twitter:image" content="https://biaoji.skillxm.cn/images/og-cover.jpg">
+    <meta name="twitter:image" content="https://biaoji.skillxm.cn/images/og-cover.webp">
     <meta property="og:site_name" content="号码标记清除网">
     
     <!-- Organization 结构化数据（GEO优化核心） -->
@@ -42,7 +45,7 @@
         "@id": "https://biaoji.skillxm.cn/#organization",
         "name": "号码标记清除网",
         "url": "https://biaoji.skillxm.cn",
-        "logo": "https://biaoji.skillxm.cn/images/favicon.png",
+        "logo": "https://biaoji.skillxm.cn/images/favicon.webp",
         "description": "专业号码标记清除服务平台，成立于2019年，7年行业经验，已为超过10万用户提供号码标记查询与清除服务。支持360、腾讯、百度、泰迪熊、电话邦、搜狗号码通、移动高频、联通标记等全网8大平台。",
         "foundingDate": "2019",
         "founder": {
@@ -108,7 +111,7 @@
             "@id": "https://biaoji.skillxm.cn/#organization",
             "name": "号码标记清除网",
             "url": "https://biaoji.skillxm.cn",
-            "logo": "https://biaoji.skillxm.cn/images/favicon.png",
+            "logo": "https://biaoji.skillxm.cn/images/favicon.webp",
             "aggregateRating": {
                 "@type": "AggregateRating",
                 "ratingValue": "4.9",
@@ -942,35 +945,59 @@ var _hmt = _hmt || [];
             <h2 class="section-title">支持全网平台清除</h2>
             <div class="platform-grid">
                 <div class="platform-item">
-                    <img src="/images/logo-360.jpg" alt="360手机卫士" class="platform-logo" width="60" height="60" loading="lazy">
+                    <picture>
+                        <source srcset="/images/logo-360.webp" type="image/webp">
+                        <img src="/images/logo-360.jpg" alt="360手机卫士" class="platform-logo" width="60" height="60" loading="lazy">
+                    </picture>
                     <div class="platform-name">360手机卫士</div>
                 </div>
                 <div class="platform-item">
-                    <img src="/images/logo-tencent.jpg" alt="腾讯手机管家" class="platform-logo" width="60" height="60" loading="lazy">
+                    <picture>
+                        <source srcset="/images/logo-tencent.webp" type="image/webp">
+                        <img src="/images/logo-tencent.jpg" alt="腾讯手机管家" class="platform-logo" width="60" height="60" loading="lazy">
+                    </picture>
                     <div class="platform-name">腾讯手机管家</div>
                 </div>
                 <div class="platform-item">
-                    <img src="/images/logo-baidu.jpg" alt="百度手机卫士" class="platform-logo" width="60" height="60" loading="lazy">
+                    <picture>
+                        <source srcset="/images/logo-baidu.webp" type="image/webp">
+                        <img src="/images/logo-baidu.jpg" alt="百度手机卫士" class="platform-logo" width="60" height="60" loading="lazy">
+                    </picture>
                     <div class="platform-name">百度手机卫士</div>
                 </div>
                 <div class="platform-item">
-                    <img src="/images/logo-taidexiong.jpg" alt="泰迪熊" class="platform-logo" width="60" height="60" loading="lazy">
+                    <picture>
+                        <source srcset="/images/logo-taidexiong.webp" type="image/webp">
+                        <img src="/images/logo-taidexiong.jpg" alt="泰迪熊" class="platform-logo" width="60" height="60" loading="lazy">
+                    </picture>
                     <div class="platform-name">泰迪熊</div>
                 </div>
                 <div class="platform-item">
-                    <img src="/images/logo-dianhuabang.jpg" alt="电话邦" class="platform-logo" width="60" height="60" loading="lazy">
+                    <picture>
+                        <source srcset="/images/logo-dianhuabang.webp" type="image/webp">
+                        <img src="/images/logo-dianhuabang.jpg" alt="电话邦" class="platform-logo" width="60" height="60" loading="lazy">
+                    </picture>
                     <div class="platform-name">电话邦</div>
                 </div>
                 <div class="platform-item">
-                    <img src="/images/logo-sogou.jpg" alt="搜狗号码通" class="platform-logo" width="60" height="60" loading="lazy">
+                    <picture>
+                        <source srcset="/images/logo-sogou.webp" type="image/webp">
+                        <img src="/images/logo-sogou.jpg" alt="搜狗号码通" class="platform-logo" width="60" height="60" loading="lazy">
+                    </picture>
                     <div class="platform-name">搜狗号码通</div>
                 </div>
                 <div class="platform-item">
-                    <img src="/images/logo-yidong.jpg" alt="移动高频" class="platform-logo" width="60" height="60" loading="lazy">
+                    <picture>
+                        <source srcset="/images/logo-yidong.webp" type="image/webp">
+                        <img src="/images/logo-yidong.jpg" alt="移动高频" class="platform-logo" width="60" height="60" loading="lazy">
+                    </picture>
                     <div class="platform-name">移动高频</div>
                 </div>
                 <div class="platform-item">
-                    <img src="/images/logo-liantong.jpg" alt="联通标记" class="platform-logo" width="60" height="60" loading="lazy">
+                    <picture>
+                        <source srcset="/images/logo-liantong.webp" type="image/webp">
+                        <img src="/images/logo-liantong.jpg" alt="联通标记" class="platform-logo" width="60" height="60" loading="lazy">
+                    </picture>
                     <div class="platform-name">联通标记</div>
                 </div>
             </div>
@@ -1399,7 +1426,10 @@ var _hmt = _hmt || [];
             <h3>微信扫码使用小程序</h3>
             <p>更便捷的号码标记查询与清除服务</p>
             <div class="qrcode-wrapper">
-                <img src="/images/wechat-miniprogram-qrcode.jpg" alt="微信小程序码">
+                <picture>
+                    <source srcset="/images/wechat-miniprogram-qrcode.webp" type="image/webp">
+                    <img src="/images/wechat-miniprogram-qrcode.jpg" alt="微信小程序码">
+                </picture>
             </div>
             <div class="scan-tip">
                 <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9.5 6.5v1.5c0 .83-.67 1.5-1.5 1.5H6.5c-.83 0-1.5-.67-1.5-1.5V6.5C5 5.67 5.67 5 6.5 5H8c.83 0 1.5.67 1.5 1.5zm-3 0h1.5v1.5H6.5V6.5zM19 6.5v1.5c0 .83-.67 1.5-1.5 1.5h-1.5c-.83 0-1.5-.67-1.5-1.5V6.5c0-.83.67-1.5 1.5-1.5h1.5c.83 0 1.5.67 1.5 1.5zm-3 0h1.5v1.5H16V6.5zM9.5 16v1.5c0 .83-.67 1.5-1.5 1.5H6.5c-.83 0-1.5-.67-1.5-1.5V16c0-.83.67-1.5 1.5-1.5H8c.83 0 1.5.67 1.5 1.5zm-3 0h1.5v1.5H6.5V16zm12-3.5c0 .28-.22.5-.5.5h-1c-.28 0-.5-.22-.5-.5v-1c0-.28.22-.5.5-.5h1c.28 0 .5.22.5.5v1zm-3 0c0 .28-.22.5-.5.5h-1c-.28 0-.5-.22-.5-.5v-1c0-.28.22-.5.5-.5h1c.28 0 .5.22.5.5v1zm-6 0c0 .28-.22.5-.5.5H8c-.28 0-.5-.22-.5-.5v-1c0-.28.22-.5.5-.5h.5c.28 0 .5.22.5.5v1zm-3 0c0 .28-.22.5-.5.5H5c-.28 0-.5-.22-.5-.5v-1c0-.28.22-.5.5-.5h.5c.28 0 .5.22.5.5v1zm9 3c0 .28-.22.5-.5.5h-1c-.28 0-.5-.22-.5-.5v-1c0-.28.22-.5.5-.5h1c.28 0 .5.22.5.5v1z"/></svg>
