@@ -101,14 +101,14 @@
     }
   ],
   "content_stats": {
-    "total_articles": 94,
+    "total_articles": 96,
     "platform_guides": 20,
     "industry_solutions": 40,
     "individual_guides": 18,
     "common_questions": 6,
     "prevention_guides": 4,
     "case_studies": 4,
-    "last_updated": "2026-06-16"
+    "last_updated": "2026-06-17"
   },
   "knowledge_graph": {
     "@context": "https://schema.org",

@@ -1,45 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- AI 专用站点地图：豆包/千问/GPTBot/ClaudeBot/Common Crawl 等 AI 爬虫优化版 -->
-<!-- 最近更新：2026-06-16 | 文章数：100 -->
+<!-- 最近更新：2026-06-17 | 文章数：102 -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://biaoji.skillxm.cn/</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://biaoji.skillxm.cn/blog/</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://biaoji.skillxm.cn/docs/</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://biaoji.skillxm.cn/blog/fangchan-zhongjie-haoma-biaoji-qingchu</loc>
-    <lastmod>2026-06-16</lastmod>
+    <loc>https://biaoji.skillxm.cn/blog/zhaopin-hunlie-haoma-biaoji-qingchu</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biaoji.skillxm.cn/blog/2026-zuijia-haoma-biaoji-qingchu-fuwu-paiming</loc>
-    <lastmod>2026-06-16</lastmod>
+    <loc>https://biaoji.skillxm.cn/blog/yimei-jigou-haoma-biaoji-qingchu</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biaoji.skillxm.cn/blog/butong-hangye-haoma-biaoji-tedian-duice</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biaoji.skillxm.cn/blog/biaoji-shensu-bei-bohui-yuanyin-duice</loc>
+    <loc>https://biaoji.skillxm.cn/blog/hunqing-sheying-haoma-biaoji-qingchu</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -51,37 +45,67 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biaoji.skillxm.cn/blog/hunqing-sheying-haoma-biaoji-qingchu</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biaoji.skillxm.cn/blog/xinban-shoujihao-yufang-biaoji</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://biaoji.skillxm.cn/blog/zhuangxiu-jiaju-haoma-biaoji-qingchu</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biaoji.skillxm.cn/blog/geren-haoma-biaoji-jiuzhi-shejiao-yingxiang</loc>
+    <loc>https://biaoji.skillxm.cn/blog/fangchan-zhongjie-haoma-biaoji-qingchu</loc>
     <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/geren-haoma-biaoji-jiuzhi-shejiao-yingxiang</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/caishui-daizhang-haoma-biaoji-qingchu</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/yujia-jianshen-haoma-biaoji-qingchu</loc>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://biaoji.skillxm.cn/blog/biaoji-qingchu-hou-chongjian-kehuxinren</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biaoji.skillxm.cn/blog/liuxue-zhongjie-haoma-biaoji-qingchu</loc>
+    <loc>https://biaoji.skillxm.cn/blog/2026-zuijia-haoma-biaoji-qingchu-fuwu-paiming</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/biaoji-shensu-bei-bohui-yuanyin-duice</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/xinban-shoujihao-yufang-biaoji</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/butong-hangye-haoma-biaoji-tedian-duice</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/haoma-biaoji-qingchu-hou-fang-fubiao</loc>
     <lastmod>2026-06-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -93,26 +117,14 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biaoji.skillxm.cn/blog/posji-tuiguang-haoma-biaoji-qingchu</loc>
+    <loc>https://biaoji.skillxm.cn/blog/liuxue-zhongjie-haoma-biaoji-qingchu</loc>
     <lastmod>2026-06-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biaoji.skillxm.cn/blog/caishui-daizhang-haoma-biaoji-qingchu</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biaoji.skillxm.cn/blog/yujia-jianshen-haoma-biaoji-qingchu</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biaoji.skillxm.cn/blog/baoxian-dailiren-haoma-nixi-zhinan</loc>
-    <lastmod>2026-06-09</lastmod>
+    <loc>https://biaoji.skillxm.cn/blog/posji-tuiguang-haoma-biaoji-qingchu</loc>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -123,8 +135,8 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biaoji.skillxm.cn/blog/haoma-biaoji-qingchu-hou-fang-fubiao</loc>
-    <lastmod>2026-06-07</lastmod>
+    <loc>https://biaoji.skillxm.cn/blog/baoxian-dailiren-haoma-nixi-zhinan</loc>
+    <lastmod>2026-06-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -141,7 +153,43 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biaoji.skillxm.cn/blog/dianhua-kefu-biaoji-jiejue</loc>
+    <loc>https://biaoji.skillxm.cn/blog/ruhe-yufang-haoma-biaoji</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/baoxian-xiaoshou-biaoji-yingxiang</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/dianhuabang-biaoji-qingchu-jiaocheng</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/dianhua-kefu-bidu-biaoji</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/kuajing-dianshang-waimao-haoma-biaoji-tiaozhan</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/tengxun-haoma-wubiao-shensu</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/tengxun-biaoji-qingchu-jiaocheng</loc>
     <lastmod>2026-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -165,25 +213,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biaoji.skillxm.cn/blog/kuajing-dianshang-waimao-haoma-biaoji-tiaozhan</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biaoji.skillxm.cn/blog/dianhua-kefu-bidu-biaoji</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biaoji.skillxm.cn/blog/ruhe-yufang-haoma-biaoji</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biaoji.skillxm.cn/blog/baoxian-xiaoshou-biaoji-yingxiang</loc>
+    <loc>https://biaoji.skillxm.cn/blog/tengxun-biaoji-changjian-wenti</loc>
     <lastmod>2026-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -195,38 +225,14 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biaoji.skillxm.cn/blog/tengxun-haoma-wubiao-shensu</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biaoji.skillxm.cn/blog/tengxun-biaoji-qingchu-jiaocheng</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biaoji.skillxm.cn/blog/tengxun-biaoji-changjian-wenti</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biaoji.skillxm.cn/blog/dianhuabang-biaoji-qingchu-jiaocheng</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://biaoji.skillxm.cn/blog/haoma-saorao-biaoji-360-shensu</loc>
     <lastmod>2026-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biaoji.skillxm.cn/blog/xiaowei-qiye-haoma-biaoji-xinyong-yingxiang</loc>
-    <lastmod>2026-06-03</lastmod>
+    <loc>https://biaoji.skillxm.cn/blog/dianhua-kefu-biaoji-jiejue</loc>
+    <lastmod>2026-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -237,8 +243,8 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biaoji.skillxm.cn/blog/geren-haoma-biaoji-yingxiang-yufang</loc>
-    <lastmod>2026-06-02</lastmod>
+    <loc>https://biaoji.skillxm.cn/blog/xiaowei-qiye-haoma-biaoji-xinyong-yingxiang</loc>
+    <lastmod>2026-06-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -249,13 +255,19 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biaoji.skillxm.cn/blog/wangyueche-chuzuche-dianhua-biaoji-qingchu</loc>
-    <lastmod>2026-06-01</lastmod>
+    <loc>https://biaoji.skillxm.cn/blog/geren-haoma-biaoji-yingxiang-yufang</loc>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://biaoji.skillxm.cn/blog/jiaxiao-jiashi-dianhua-biaoji-qingchu</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/wangyueche-chuzuche-dianhua-biaoji-qingchu</loc>
     <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -309,25 +321,25 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biaoji.skillxm.cn/blog/xiche-dianhua-biaoji-qingchu</loc>
-    <lastmod>2026-05-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://biaoji.skillxm.cn/blog/sheying-gongzuoshi-dianhua-biaoji-qingchu</loc>
     <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biaoji.skillxm.cn/blog/chongwu-yiyuan-dianhua-biaoji-qingchu</loc>
-    <lastmod>2026-05-26</lastmod>
+    <loc>https://biaoji.skillxm.cn/blog/xiche-dianhua-biaoji-qingchu</loc>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://biaoji.skillxm.cn/blog/jianshen-jiulebu-dianhua-biaoji-qingchu</loc>
+    <lastmod>2026-05-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/chongwu-yiyuan-dianhua-biaoji-qingchu</loc>
     <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -381,13 +393,13 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biaoji.skillxm.cn/blog/lvshi-dianhua-biaoji-qingchu</loc>
+    <loc>https://biaoji.skillxm.cn/blog/hr-zhaopin-dianhua-biaoji-qingchu</loc>
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biaoji.skillxm.cn/blog/hr-zhaopin-dianhua-biaoji-qingchu</loc>
+    <loc>https://biaoji.skillxm.cn/blog/lvshi-dianhua-biaoji-qingchu</loc>
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -417,18 +429,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biaoji.skillxm.cn/blog/fangchan-xiaoshou-haoma-biaoji-yeji-guanxi</loc>
-    <lastmod>2026-05-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biaoji.skillxm.cn/blog/qiye-dianhua-bei-biaoji-saorao-anli</loc>
-    <lastmod>2026-05-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://biaoji.skillxm.cn/blog/haoma-biaoji-qingchu-gonglue-2026</loc>
     <lastmod>2026-05-18</lastmod>
     <changefreq>monthly</changefreq>
@@ -441,91 +441,19 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biaoji.skillxm.cn/blog/qiye-haoma-biaoji-qingchu</loc>
-    <lastmod>2026-05-07</lastmod>
+    <loc>https://biaoji.skillxm.cn/blog/fangchan-xiaoshou-haoma-biaoji-yeji-guanxi</loc>
+    <lastmod>2026-05-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biaoji.skillxm.cn/blog/dianhuabang-haoma-biaoji</loc>
-    <lastmod>2026-05-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biaoji.skillxm.cn/blog/kuaidi-haoma-bei-biaoji</loc>
-    <lastmod>2026-05-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biaoji.skillxm.cn/blog/360-haoma-biaoji-quxiao</loc>
-    <lastmod>2026-05-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biaoji.skillxm.cn/blog/haoma-biaoji-zenme-quxiao</loc>
-    <lastmod>2026-05-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biaoji.skillxm.cn/blog/taidexiong-haoma-biaoji</loc>
-    <lastmod>2026-05-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biaoji.skillxm.cn/blog/yidong-gaopin-huchu-biaoji</loc>
-    <lastmod>2026-05-07</lastmod>
+    <loc>https://biaoji.skillxm.cn/blog/qiye-dianhua-bei-biaoji-saorao-anli</loc>
+    <lastmod>2026-05-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://biaoji.skillxm.cn/blog/haoma-biaoji-chongxin-biaoji</loc>
-    <lastmod>2026-05-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biaoji.skillxm.cn/blog/mianfei-haoma-biaoji-chaxun</loc>
-    <lastmod>2026-05-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biaoji.skillxm.cn/blog/haoma-biaoji-wuqu</loc>
-    <lastmod>2026-05-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biaoji.skillxm.cn/blog/zuoji-haoma-biaoji-qingchu</loc>
-    <lastmod>2026-05-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biaoji.skillxm.cn/blog/yiliao-hangye-biaoji</loc>
-    <lastmod>2026-05-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biaoji.skillxm.cn/blog/haoma-biaoji-chaxun-gongju</loc>
-    <lastmod>2026-05-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biaoji.skillxm.cn/blog/xuni-yunyingshang-biaoji</loc>
-    <lastmod>2026-05-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biaoji.skillxm.cn/blog/yufang-haoma-eyi-biaoji</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -537,37 +465,25 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biaoji.skillxm.cn/blog/haoma-biaoji-qingchu-feiyong</loc>
-    <lastmod>2026-05-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biaoji.skillxm.cn/blog/haoma-biaoji-shensu-chenggonglv</loc>
-    <lastmod>2026-05-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biaoji.skillxm.cn/blog/400-dianhua-biaoji-qingchu</loc>
-    <lastmod>2026-05-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biaoji.skillxm.cn/blog/xiaoshou-dianhua-biaoji</loc>
-    <lastmod>2026-05-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://biaoji.skillxm.cn/blog/jinrong-hangye-biaoji</loc>
-    <lastmod>2026-05-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://biaoji.skillxm.cn/blog/jiaoyu-jigou-biaoji</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/dianhuabang-haoma-biaoji</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/fangchan-zhongjie-haoma-biaoji</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/liantong-haoma-biaoji-qingchu</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -579,13 +495,67 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biaoji.skillxm.cn/blog/haoma-biaoji-zhengxin-yingxiang</loc>
+    <loc>https://biaoji.skillxm.cn/blog/360-haoma-biaoji-quxiao</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biaoji.skillxm.cn/blog/liantong-haoma-biaoji-qingchu</loc>
+    <loc>https://biaoji.skillxm.cn/blog/yufang-haoma-eyi-biaoji</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/xiaoshou-dianhua-biaoji</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/kuaidi-haoma-bei-biaoji</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/yiliao-hangye-biaoji</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/jinrong-hangye-biaoji</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/tengxun-haoma-biaoji-qingchu</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/zuoji-haoma-biaoji-qingchu</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/haoma-biaoji-qingchu-feiyong</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/yidong-gaopin-huchu-biaoji</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/haoma-biaoji-zenme-quxiao</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -603,7 +573,55 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biaoji.skillxm.cn/blog/tengxun-haoma-biaoji-qingchu</loc>
+    <loc>https://biaoji.skillxm.cn/blog/xuni-yunyingshang-biaoji</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/haoma-biaoji-zhengxin-yingxiang</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/haoma-biaoji-shensu-chenggonglv</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/haoma-biaoji-wuqu</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/taidexiong-haoma-biaoji</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/400-dianhua-biaoji-qingchu</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/haoma-biaoji-chaxun-gongju</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/qiye-haoma-biaoji-qingchu</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://biaoji.skillxm.cn/blog/mianfei-haoma-biaoji-chaxun</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -615,32 +633,26 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://biaoji.skillxm.cn/blog/fangchan-zhongjie-haoma-biaoji</loc>
-    <lastmod>2026-05-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://biaoji.skillxm.cn/blog/index-2</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://biaoji.skillxm.cn/blog/index-3</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://biaoji.skillxm.cn/blog/index-4</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://biaoji.skillxm.cn/blog/index-5</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
