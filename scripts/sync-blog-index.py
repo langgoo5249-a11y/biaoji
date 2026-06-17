@@ -183,8 +183,8 @@ def update_blog_index():
         if info:
             articles.append(info)
 
-    # 2. 按修改时间倒序排序
-    articles.sort(key=lambda x: x['mtime'], reverse=True)
+    # 2. 按发布日期倒序排序（使用文章实际日期而非文件 mtime）
+    articles.sort(key=lambda x: x['date'], reverse=True)
     print(f"    找到 {len(articles)} 篇文章")
 
     # 3. 读取原blog/index.html

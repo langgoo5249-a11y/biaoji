@@ -38,7 +38,7 @@ for filename in os.listdir(BLOG_DIR):
     if info:
         articles.append(info)
 
-articles.sort(key=lambda x: x['mtime'], reverse=True)
+articles.sort(key=lambda x: x['date'], reverse=True)
 print(f"    找到 {len(articles)} 篇文章")
 
 # 2. 读取原文件
