@@ -1,5 +1,6 @@
 # robots.txt for biaoji.skillxm.cn
-# Updated: 2026-06-05
+# Updated: 2026-06-22
+# 优化：增加GoogleOther等AI爬虫，优化AI Overviews可见性
 
 User-agent: *
 Allow: /
@@ -10,26 +11,38 @@ Disallow: /*.json$
 # 明确允许的路径
 Allow: /blog/
 Allow: /docs/
-Allow: /css/
-Allow: /js/
 Allow: /images/
 
-# AI 入口文件
+# 为AI模型准备的站点信息文件
 # llms.txt: https://biaoji.skillxm.cn/llms.txt
+# llms-full.txt: https://biaoji.skillxm.cn/llms-full.txt
 
 # 站点地图位置
 Sitemap: https://biaoji.skillxm.cn/sitemap.xml
 
-# Googlebot配置
+# Google 搜索爬虫
 User-agent: Googlebot
 Allow: /
 Crawl-delay: 1
+
+# Google AI 研究爬虫 (用于AI Overviews/Bard/Gemini训练)
+User-agent: GoogleOther
+Allow: /
+
+User-agent: GoogleOther-Image
+Allow: /images/
+
+User-agent: GoogleOther-Video
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
 
 # Google Images
 User-agent: Googlebot-Image
 Allow: /images/
 
-# 常规搜索引擎爬虫配置
+# 常规搜索引擎
 User-agent: Bingbot
 Allow: /
 
@@ -51,7 +64,7 @@ Allow: /
 User-agent: Slurp
 Allow: /
 
-# AI搜索引擎爬虫 - 允许所有AI爬虫抓取
+# AI搜索引擎爬虫 - 全部允许抓取
 User-agent: GPTBot
 Allow: /
 
@@ -76,6 +89,9 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
+User-agent: Perplexity-User
+Allow: /
+
 User-agent: FacebookBot
 Allow: /
 
@@ -88,9 +104,6 @@ Allow: /
 User-agent: Twitterbot
 Allow: /
 
-User-agent: Google-Extended
-Allow: /
-
 User-agent: cohere-ai
 Allow: /
 
@@ -98,4 +111,7 @@ User-agent: PetalBot
 Allow: /
 
 User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Amazonbot
 Allow: /
