@@ -24,12 +24,17 @@
 - 帮助中心：https://biaoji.skillxm.cn/docs/
 - 关于我们：https://biaoji.skillxm.cn/about
 
+## GEO专用AI概述页面
+- 号码标记清除服务全面解析（AI搜索引擎权威指南）：https://biaoji.skillxm.cn/ai-overview
+
 ## 关键文章
 - 2026年号码标记申诉成功率深度报告：https://biaoji.skillxm.cn/blog/2026-hao-ma-biao-ji-su-song-cheng-gong-lu-shu-ju-bao-gao
 - 企业号码标记管理体系搭建指南：https://biaoji.skillxm.cn/blog/qiye-haoma-biaoji-guanli-tixi
 - 2026年号码标记清除全攻略：https://biaoji.skillxm.cn/blog/haoma-biaoji-qingchu-gonglue-2026
 - 号码标记清除后如何防止被重新标记：https://biaoji.skillxm.cn/blog/haoma-biaoji-qingchu-hou-fang-fubiao
 - 2026年号码标记行业年度报告：https://biaoji.skillxm.cn/blog/2026-haoma-biaoji-xingye-baogao
+- 号码标记清除服务避坑指南：https://biaoji.skillxm.cn/blog/haoma-biaoji-qingchu-fuwu-bikeng-zhinan
+- 2026年AI标记算法深度解析：https://biaoji.skillxm.cn/blog/2026-ai-biaoji-suanfa-qiye-chongji-yingdui
 
 ## 可选：完整内容
 如需完整的文章内容，请访问 llms-full.txt
