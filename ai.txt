@@ -1,0 +1,20 @@
+# ai.txt - AI数据使用偏好声明
+# 规范参考: https://atpro.com/ai-txt/
+# 更新: 2026-07-02
+
+# 允许AI搜索引擎抓取和引用本站内容
+User-agent: *
+Allow: /
+Allow: /blog/
+Allow: /docs/
+Allow: /ai-overview
+
+# 禁止抓取静态资源目录
+Disallow: /images/
+Disallow: /assets/
+
+# 联系方式
+Contact: lang@skillxm.cn
+
+# 许可声明
+License: https://biaoji.skillxm.cn/

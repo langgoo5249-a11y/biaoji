@@ -20,6 +20,23 @@
   Content-Type: text/plain; charset=utf-8
   Cache-Control: public, max-age=86400, s-maxage=86400
 
+# AI搜索引擎专用文件 - 长缓存（不常更新）
+/llms.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=86400, s-maxage=86400
+
+/llms-full.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=86400, s-maxage=86400
+
+/ai-sitemap.xml
+  Content-Type: application/xml; charset=utf-8
+  Cache-Control: public, max-age=3600, s-maxage=3600
+
+/ai.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=86400, s-maxage=86400
+
 # 静态资源 - 长期缓存
 /assets/*
   Cache-Control: public, max-age=31536000, immutable, s-maxage=31536000

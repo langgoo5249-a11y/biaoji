@@ -19,6 +19,7 @@ Allow: /images/
 
 # 站点地图位置
 Sitemap: https://biaoji.skillxm.cn/sitemap.xml
+Sitemap: https://biaoji.skillxm.cn/ai-sitemap.xml
 
 # Google 搜索爬虫
 User-agent: Googlebot
