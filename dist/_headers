@@ -46,6 +46,10 @@
   Cache-Control: public, max-age=2592000, s-maxage=2592000
   Vary: Accept-Encoding
 
+# 所有HTML页面 - 12小时缓存（确保Cloudflare Edge缓存优化）
+/*.html
+  Cache-Control: public, max-age=43200, s-maxage=43200
+
 # 首页 - 2小时缓存
 /
   Cache-Control: public, max-age=7200, s-maxage=7200
