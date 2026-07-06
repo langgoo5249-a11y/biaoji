@@ -26,3 +26,17 @@
 /blog/%E8%85%BE%E8%AE%AF%E5%8F%B7%E7%A0%81%E6%A0%87%E8%AE%B0%E6%B8%85%E9%99%A4%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B-%E4%BB%8E%E6%9F%A5%E8%AF%A2%E5%88%B0%E7%94%B3%E8%AF%89%E5%85%A8%E6%B5%81%E7%A8%8B  /blog/tengxun-biaoji-qingchu-jiaocheng  301
 /blog/%E8%85%BE%E8%AE%AF%E5%8F%B7%E7%A0%81%E8%A2%AB%E8%AF%AF%E6%A0%87-%E8%BF%99%E6%A0%B7%E7%94%B3%E8%AF%89%E6%9C%80%E6%9C%89%E6%95%88  /blog/tengxun-haoma-wubiao-shensu  301
 /blog/%E8%85%BE%E8%AE%AF%E7%94%B3%E8%AF%89%E5%85%A5%E5%8F%A3%E5%9C%A8%E5%93%AA-%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E5%8F%96%E6%B6%88%E6%A0%87%E8%AE%B0  /blog/tengxun-shensu-rukou-zhinan  301
+
+# 重复文章合并 301 重定向 (2026-07-06)
+# Group 1: Tencent 合并到主教程
+/blog/tengxun-haoma-biaoji-qingchu  /blog/tengxun-biaoji-qingchu-jiaocheng  301
+/blog/tengxun-haoma-wubiao-shensu  /blog/tengxun-biaoji-qingchu-jiaocheng  301
+/blog/tengxun-biaoji-changjian-wenti  /blog/tengxun-biaoji-qingchu-jiaocheng  301
+
+# Group 2: 360 合并到主指南
+/blog/360-shensu-rukou-zhinan  /blog/360-haoma-biaoji-quxuo  301
+/blog/haoma-saorao-biaoji-360-shensu  /blog/360-haoma-biaoji-quxuo  301
+
+# Group 3: 防复标合并到数据驱动主文章
+/blog/haoma-biaoji-qingchu-hou-fang-fubiao  /blog/haoma-biaoji-qingchu-hou-fubiao-guiliu  301
+/blog/haoma-biaoji-qingchu-hou-fubiao-yufang  /blog/haoma-biaoji-qingchu-hou-fubiao-guiliu  301
