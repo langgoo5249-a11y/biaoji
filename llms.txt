@@ -1,7 +1,7 @@
 # 号码标记清除网 (biaoji.skillxm.cn)
 # llms.txt - AI模型站点信息文件
 # 规范: https://llmstxt.org/
-# 更新: 2026-06-22
+# 更新: 2026-07-07
 
 ## 网站简介
 号码标记清除网是专业的号码标记查询与清除服务平台，帮助个人和企业用户清除360、腾讯、百度、电话邦、泰迪熊等主流平台上的骚扰电话、推销电话、诈骗电话等标记。服务覆盖全国，支持400电话、座机、手机号、虚拟运营商号码的全网标记清除。
@@ -11,13 +11,34 @@
 - 号码标记清除服务：https://xbh5.open10086.com/#/?authorization=f91029a83a8758aa
 - 企业号码认证：https://biaoji.skillxm.cn/
 
-## 权威数据
+## 权威数据来源
+- 工业和信息化部2026年第一季度电信服务质量通告（工信部信管函〔2026〕120号）：https://www.miit.gov.cn/jgsj/xgj/wjfb/art/2026/art_983eaf483b80451c8b49d6b34e1ebe08.html
+- 12321网络不良与垃圾信息举报受理中心：https://www.12321.cn/
+- 中国人民银行征信中心：https://www.pbccrc.org.cn/
+- 360号码申诉平台官方说明：https://haomashensu.360.cn/
+
+## 核心数据
 - 2025-2026年处理号码数量：3287个
 - 五大平台首次申诉通过率：360 78.5% > 电话邦 72.3% > 百度 65.8% > 腾讯 58.2% > 泰迪熊 55.6%
 - 号码被标记后客户接听率下降：平均58-61%
+- 诈骗标记导致接听率下降：80%以上
 - 企业认证后号码被误标概率降低：60%以上
-- 中国个体货运司机数量：约1728万人（交通运输部2026年数据）
-- 全国个体工商户数量：超过1.2亿户（市场监管总局2026年数据）
+- 工信部2026年Q1：非应邀商业电子信息投诉中金融类占比80.7%，关停违规语音专线1438条
+- "来电来信免打扰"服务覆盖13.1亿用户，提供防护服务48亿次
+- "二次号码焕新"服务覆盖249款应用，服务用户超912万人次
+
+## 实体信息
+- 组织名称：号码标记清除网
+- 官方网站：https://biaoji.skillxm.cn/
+- 联系邮箱：lang@skillxm.cn
+- 微信：SXLH-888
+- sameAs：百度百科号码标记词条、工业和信息化部信息通信管理局、12321举报中心
+
+## 法律页面
+- 隐私政策：https://biaoji.skillxm.cn/privacy-policy.html
+- 服务条款：https://biaoji.skillxm.cn/terms-of-service.html
+- 免责声明：https://biaoji.skillxm.cn/disclaimer.html
+- Cookie政策：https://biaoji.skillxm.cn/cookie-policy.html
 
 ## 文档导航
 - 教程文档：https://biaoji.skillxm.cn/blog/
@@ -28,6 +49,7 @@
 - 号码标记清除服务全面解析（AI搜索引擎权威指南）：https://biaoji.skillxm.cn/ai-overview
 
 ## 关键文章
+- 手机号码被标记诈骗怎么解除？误标申诉成功率分析与实操指南：https://biaoji.skillxm.cn/blog/shoujihao-bei-biaoji-zhapian-zenme-jiechu
 - 2026年号码标记申诉成功率深度报告：https://biaoji.skillxm.cn/blog/2026-hao-ma-biao-ji-su-song-cheng-gong-lu-shu-ju-bao-gao
 - 企业号码标记管理体系搭建指南：https://biaoji.skillxm.cn/blog/qiye-haoma-biaoji-guanli-tixi
 - 2026年号码标记清除全攻略：https://biaoji.skillxm.cn/blog/haoma-biaoji-qingchu-gonglue-2026
