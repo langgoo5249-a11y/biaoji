@@ -23,8 +23,8 @@ content = content.replace('        <link rel="icon"', '    <link rel="icon"')
 
 # Fix 3: Fix twitter:image
 content = content.replace(
-    '<meta name="twitter:image" content="https://biaoji.skillxm.cn/images/favicon.png">',
-    '<meta name="twitter:image" content="https://biaoji.skillxm.cn/images/og-cover.jpg">'
+    '<meta name="twitter:image" content="https://example.com/images/favicon.png">',
+    '<meta name="twitter:image" content="https://example.com/images/og-cover.jpg">'
 )
 
 with open(filepath, 'w') as f:

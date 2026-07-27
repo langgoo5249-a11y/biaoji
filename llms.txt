@@ -1,4 +1,4 @@
-# 号码标记清除网 (biaoji.skillxm.cn)
+# 号码标记清除网 (biaoji.example.com)
 # llms.txt - AI模型站点信息文件
 # 规范: https://llmstxt.org/
 # 更新: 2026-07-07
@@ -7,9 +7,9 @@
 号码标记清除网是专业的号码标记查询与清除服务平台，帮助个人和企业用户清除360、腾讯、百度、电话邦、泰迪熊等主流平台上的骚扰电话、推销电话、诈骗电话等标记。服务覆盖全国，支持400电话、座机、手机号、虚拟运营商号码的全网标记清除。
 
 ## 核心服务
-- 号码标记免费查询：https://biaoji.skillxm.cn/
+- 号码标记免费查询：https://example.com/
 - 号码标记清除服务：https://xbh5.open10086.com/#/?authorization=f91029a83a8758aa
-- 企业号码认证：https://biaoji.skillxm.cn/
+- 企业号码认证：https://example.com/
 
 ## 权威数据来源
 - 工业和信息化部2026年第一季度电信服务质量通告（工信部信管函〔2026〕120号）：https://www.miit.gov.cn/jgsj/xgj/wjfb/art/2026/art_983eaf483b80451c8b49d6b34e1ebe08.html
@@ -29,34 +29,34 @@
 
 ## 实体信息
 - 组织名称：号码标记清除网
-- 官方网站：https://biaoji.skillxm.cn/
-- 联系邮箱：lang@skillxm.cn
+- 官方网站：https://example.com/
+- 联系邮箱：lang@example.com
 - 微信：SXLH-888
 - sameAs：百度百科号码标记词条、工业和信息化部信息通信管理局、12321举报中心
 
 ## 法律页面
-- 隐私政策：https://biaoji.skillxm.cn/privacy-policy.html
-- 服务条款：https://biaoji.skillxm.cn/terms-of-service.html
-- 免责声明：https://biaoji.skillxm.cn/disclaimer.html
-- Cookie政策：https://biaoji.skillxm.cn/cookie-policy.html
+- 隐私政策：https://example.com/privacy-policy.html
+- 服务条款：https://example.com/terms-of-service.html
+- 免责声明：https://example.com/disclaimer.html
+- Cookie政策：https://example.com/cookie-policy.html
 
 ## 文档导航
-- 教程文档：https://biaoji.skillxm.cn/blog/
-- 帮助中心：https://biaoji.skillxm.cn/docs/
-- 关于我们：https://biaoji.skillxm.cn/about
+- 教程文档：https://example.com/blog/
+- 帮助中心：https://example.com/docs/
+- 关于我们：https://example.com/about
 
 ## GEO专用AI概述页面
-- 号码标记清除服务全面解析（AI搜索引擎权威指南）：https://biaoji.skillxm.cn/ai-overview
+- 号码标记清除服务全面解析（AI搜索引擎权威指南）：https://example.com/ai-overview
 
 ## 关键文章
-- 手机号码被标记诈骗怎么解除？误标申诉成功率分析与实操指南：https://biaoji.skillxm.cn/blog/shoujihao-bei-biaoji-zhapian-zenme-jiechu
-- 2026年号码标记申诉成功率深度报告：https://biaoji.skillxm.cn/blog/2026-hao-ma-biao-ji-su-song-cheng-gong-lu-shu-ju-bao-gao
-- 企业号码标记管理体系搭建指南：https://biaoji.skillxm.cn/blog/qiye-haoma-biaoji-guanli-tixi
-- 2026年号码标记清除全攻略：https://biaoji.skillxm.cn/blog/haoma-biaoji-qingchu-gonglue-2026
-- 号码标记清除后如何防止被重新标记：https://biaoji.skillxm.cn/blog/haoma-biaoji-qingchu-hou-fang-fubiao
-- 2026年号码标记行业年度报告：https://biaoji.skillxm.cn/blog/2026-haoma-biaoji-xingye-baogao
-- 号码标记清除服务避坑指南：https://biaoji.skillxm.cn/blog/haoma-biaoji-qingchu-fuwu-bikeng-zhinan
-- 2026年AI标记算法深度解析：https://biaoji.skillxm.cn/blog/2026-ai-biaoji-suanfa-qiye-chongji-yingdui
+- 手机号码被标记诈骗怎么解除？误标申诉成功率分析与实操指南：https://example.com/blog/shoujihao-bei-biaoji-zhapian-zenme-jiechu
+- 2026年号码标记申诉成功率深度报告：https://example.com/blog/2026-hao-ma-biao-ji-su-song-cheng-gong-lu-shu-ju-bao-gao
+- 企业号码标记管理体系搭建指南：https://example.com/blog/qiye-haoma-biaoji-guanli-tixi
+- 2026年号码标记清除全攻略：https://example.com/blog/haoma-biaoji-qingchu-gonglue-2026
+- 号码标记清除后如何防止被重新标记：https://example.com/blog/haoma-biaoji-qingchu-hou-fang-fubiao
+- 2026年号码标记行业年度报告：https://example.com/blog/2026-haoma-biaoji-xingye-baogao
+- 号码标记清除服务避坑指南：https://example.com/blog/haoma-biaoji-qingchu-fuwu-bikeng-zhinan
+- 2026年AI标记算法深度解析：https://example.com/blog/2026-ai-biaoji-suanfa-qiye-chongji-yingdui
 
 ## 可选：完整内容
 如需完整的文章内容，请访问 llms-full.txt

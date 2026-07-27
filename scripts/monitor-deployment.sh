@@ -15,7 +15,7 @@ ELAPSED=0
 
 while [ $ELAPSED -lt $MAX_WAIT ]; do
     # 检查响应头
-    RESPONSE=$(curl -I https://biaoji.skillxm.cn/ 2>&1)
+    RESPONSE=$(curl -I https://example.com/ 2>&1)
     
     # 提取关键信息
     HTTP_STATUS=$(echo "$RESPONSE" | grep -E "^HTTP/" | tail -1)
@@ -49,5 +49,5 @@ done
 
 echo ""
 echo "⚠️ 等待超时，但网站应该已经部署成功"
-echo "请手动访问 https://biaoji.skillxm.cn 验证"
+echo "请手动访问 https://example.com 验证"
 exit 1

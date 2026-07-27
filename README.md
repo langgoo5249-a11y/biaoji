@@ -4,7 +4,7 @@
 
 ## 🌐 网站地址
 
-https://biaoji.skillxm.cn
+https://example.com
 
 ## 📁 项目结构
 
@@ -76,7 +76,7 @@ biaoji-website/
 ## 📞 联系方式
 
 - 客服微信：SXLH-888
-- 商务邮箱：lang@skillxm.cn
+- 商务邮箱：lang@example.com
 
 ## 📄 许可证
 

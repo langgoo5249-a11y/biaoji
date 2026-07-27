@@ -6,7 +6,7 @@ last_updated: 2026-06-10
 
 site:
   name: 号码标记清除网
-  url: https://biaoji.skillxm.cn
+  url: https://example.com
   description: 专业号码标记清除服务平台
 
 # 所有 AI 爬虫均被授权抓取，可用于训练和搜索结果展示
@@ -16,7 +16,7 @@ ai_crawlers:
     permission: full
     purpose: ["training", "search_indexing", "qa_citation"]
     rate_limit: "无限制"
-    contact: lang@skillxm.cn
+    contact: lang@example.com
 
   - user_agent: "Bytespider"
     vendor: "字节跳动"
@@ -92,5 +92,5 @@ data_usage:
 
 # 联系方式
 contact:
-  email: lang@skillxm.cn
+  email: lang@example.com
   wechat: SXLH-888

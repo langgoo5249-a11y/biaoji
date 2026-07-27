@@ -60,7 +60,7 @@ jobs:
         if: steps.check_changes.outputs.has_changes == 'true'
         run: |
           git config user.name "Auto Publisher"
-          git config user.email "auto@biaoji.skillxm.cn"
+          git config user.email "auto@biaoji.example.com"
           
           # 添加新文章
           git add blog/
@@ -102,7 +102,7 @@ jobs:
           # BING_API_KEY=${{ secrets.BING_API_KEY }}
           
           # 从sitemap获取URL
-          URLS=$(curl -s "https://biaoji.skillxm.cn/sitemap.xml" | grep -oP '<loc>\K[^<]+')
+          URLS=$(curl -s "https://example.com/sitemap.xml" | grep -oP '<loc>\K[^<]+')
           URL_COUNT=$(echo "$URLS" | wc -l)
           
           echo "准备提交 $URL_COUNT 个URL到Bing"

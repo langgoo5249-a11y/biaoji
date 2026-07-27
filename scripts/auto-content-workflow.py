@@ -33,9 +33,9 @@ _PROJECT_ROOT = os.path.dirname(_SCRIPT_DIR)
 
 CONFIG = {
     "site_name": "号码标记清除网",
-    "site_url": "https://biaoji.skillxm.cn",
+    "site_url": "https://example.com",
     "author": "号码标记清除网",
-    "email": "lang@skillxm.cn",
+    "email": "lang@example.com",
     "blog_dir": os.path.join(_PROJECT_ROOT, "blog"),
     "images_dir": os.path.join(_PROJECT_ROOT, "images"),
     "max_articles_per_day": 2,

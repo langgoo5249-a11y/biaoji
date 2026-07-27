@@ -1,7 +1,7 @@
 #!/bin/bash
 # 百度搜索引擎URL推送脚本
 
-BAIDU_API_URL="http://data.zz.baidu.com/urls?site=https://biaoji.skillxm.cn&token=zJsDaj5ibt8ZlVgz"
+BAIDU_API_URL="http://data.zz.baidu.com/urls?site=https://example.com&token=zJsDaj5ibt8ZlVgz"
 
 echo "=========================================="
 echo "百度URL推送开始"
@@ -9,7 +9,7 @@ echo "时间: $(date '+%Y-%m-%d %H:%M:%S')"
 echo "=========================================="
 
 # 从sitemap获取URL（使用不带扩展名的路径）
-URLS=$(curl -s "https://biaoji.skillxm.cn/sitemap" | grep -oP '<loc>\K[^<]+')
+URLS=$(curl -s "https://example.com/sitemap" | grep -oP '<loc>\K[^<]+')
 
 if [ -z "$URLS" ]; then
     echo "❌ 错误: 无法从sitemap获取URL"

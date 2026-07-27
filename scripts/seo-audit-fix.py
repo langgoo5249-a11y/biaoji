@@ -20,7 +20,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
 BLOG_DIR = os.path.join(PROJECT_ROOT, 'blog')
 DOCS_DIR = os.path.join(PROJECT_ROOT, 'docs')
-SITE_URL = "https://biaoji.skillxm.cn"
+SITE_URL = "https://example.com"
 SITE_NAME = "号码标记清除网"
 TODAY = date.today().isoformat()
 
@@ -175,10 +175,10 @@ def fix_blog_articles():
         fixes = []
         
         # 4a. 修复 og:image (favicon.png → og-cover.jpg)
-        if 'og:image" content="https://biaoji.skillxm.cn/images/favicon.png"' in content:
+        if 'og:image" content="https://example.com/images/favicon.png"' in content:
             content = content.replace(
-                'og:image" content="https://biaoji.skillxm.cn/images/favicon.png"',
-                'og:image" content="https://biaoji.skillxm.cn/images/og-cover.jpg"'
+                'og:image" content="https://example.com/images/favicon.png"',
+                'og:image" content="https://example.com/images/og-cover.jpg"'
             )
             modified = True
             fixes.append("og:image→og-cover.jpg")
@@ -342,10 +342,10 @@ def fix_docs_index():
             fixes.append("Twitter Card")
     
     # 8d. 修复 og:image
-    if 'og:image" content="https://biaoji.skillxm.cn/images/favicon.png"' in content:
+    if 'og:image" content="https://example.com/images/favicon.png"' in content:
         content = content.replace(
-            'og:image" content="https://biaoji.skillxm.cn/images/favicon.png"',
-            'og:image" content="https://biaoji.skillxm.cn/images/og-cover.jpg"'
+            'og:image" content="https://example.com/images/favicon.png"',
+            'og:image" content="https://example.com/images/og-cover.jpg"'
         )
         modified = True
         fixes.append("og:image→og-cover.jpg")

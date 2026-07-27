@@ -1,4 +1,4 @@
-# robots.txt for biaoji.skillxm.cn
+# robots.txt for biaoji.example.com
 # Updated: 2026-06-22
 # 优化：增加GoogleOther等AI爬虫，优化AI Overviews可见性
 
@@ -14,12 +14,12 @@ Allow: /docs/
 Allow: /images/
 
 # 为AI模型准备的站点信息文件
-# llms.txt: https://biaoji.skillxm.cn/llms.txt
-# llms-full.txt: https://biaoji.skillxm.cn/llms-full.txt
+# llms.txt: https://example.com/llms.txt
+# llms-full.txt: https://example.com/llms-full.txt
 
 # 站点地图位置
-Sitemap: https://biaoji.skillxm.cn/sitemap.xml
-Sitemap: https://biaoji.skillxm.cn/ai-sitemap.xml
+Sitemap: https://example.com/sitemap.xml
+Sitemap: https://example.com/ai-sitemap.xml
 
 # Google 搜索爬虫
 User-agent: Googlebot

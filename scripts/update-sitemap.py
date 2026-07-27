@@ -15,7 +15,7 @@ from typing import List, Dict
 # 配置
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
-SITE_URL = "https://biaoji.skillxm.cn"
+SITE_URL = "https://example.com"
 SITEMAP_PATH = os.path.join(PROJECT_ROOT, "sitemap.xml")
 BLOG_DIR = os.path.join(PROJECT_ROOT, "blog")
 DOCS_DIR = os.path.join(PROJECT_ROOT, "docs")

@@ -15,7 +15,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
 BLOG_DIR = os.path.join(PROJECT_ROOT, 'blog')
 INDEX_FILE = os.path.join(BLOG_DIR, 'index.html')
-SITE_URL = "https://biaoji.skillxm.cn"
+SITE_URL = "https://example.com"
 
 # 分类标签映射(基于文件名关键词)
 CATEGORY_MAP = {
@@ -236,7 +236,7 @@ def update_blog_index():
                 "@type": "ListItem",
                 "position": {i+1},
                 "name": "{art['title'][:60]}",
-                "item": "https://biaoji.skillxm.cn{art['url']}"
+                "item": "https://example.com{art['url']}"
             }}''')
 
     item_list_json = f'''    <script type="application/ld+json">

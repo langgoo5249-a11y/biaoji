@@ -149,13 +149,13 @@ def fix_blog_article(filepath):
     old_author = '''"author": {
             "@type": "Organization",
             "name": "号码标记清除网",
-            "url": "https://biaoji.skillxm.cn"
+            "url": "https://example.com"
         }'''
     new_author = '''"author": {
             "@type": "Person",
             "name": "陈明远",
             "jobTitle": "通信安全专家 / 创始人",
-            "url": "https://biaoji.skillxm.cn/about.html",
+            "url": "https://example.com/about.html",
             "description": "通信行业从业15年，曾任某大型运营商号码安全部门负责人，号码标记清除领域资深专家。"
         }'''
     if old_author in content:

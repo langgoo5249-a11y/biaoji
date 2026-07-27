@@ -14,7 +14,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
 BLOG_DIR = os.path.join(PROJECT_ROOT, 'blog')
 OUTPUT_FILE = os.path.join(PROJECT_ROOT, 'sitemap-ai.xml')
-SITE_URL = "https://biaoji.skillxm.cn"
+SITE_URL = "https://example.com"
 TODAY = datetime.now().strftime('%Y-%m-%d')
 
 
@@ -58,7 +58,7 @@ def main():
 
     # 首页
     lines.append('  <url>')
-    lines.append('    <loc>https://biaoji.skillxm.cn/</loc>')
+    lines.append('    <loc>https://example.com/</loc>')
     lines.append(f'    <lastmod>{TODAY}</lastmod>')
     lines.append('    <changefreq>weekly</changefreq>')
     lines.append('    <priority>1.0</priority>')
@@ -66,7 +66,7 @@ def main():
 
     # 博客首页
     lines.append('  <url>')
-    lines.append('    <loc>https://biaoji.skillxm.cn/blog/</loc>')
+    lines.append('    <loc>https://example.com/blog/</loc>')
     lines.append(f'    <lastmod>{TODAY}</lastmod>')
     lines.append('    <changefreq>daily</changefreq>')
     lines.append('    <priority>0.9</priority>')
@@ -74,7 +74,7 @@ def main():
 
     # 文档首页
     lines.append('  <url>')
-    lines.append('    <loc>https://biaoji.skillxm.cn/docs/</loc>')
+    lines.append('    <loc>https://example.com/docs/</loc>')
     lines.append(f'    <lastmod>{TODAY}</lastmod>')
     lines.append('    <changefreq>weekly</changefreq>')
     lines.append('    <priority>0.7</priority>')

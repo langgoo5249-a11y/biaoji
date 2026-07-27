@@ -12,7 +12,7 @@ from pathlib import Path
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
 BLOG_DIR = os.path.join(PROJECT_ROOT, 'blog')
-SITE_URL = "https://biaoji.skillxm.cn"
+SITE_URL = "https://example.com"
 
 def fix_article_file(file_path):
     """修复单个文章文件中的URL"""

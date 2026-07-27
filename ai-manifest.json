@@ -1,13 +1,13 @@
 {
   "site": {
     "name": "号码标记清除网",
-    "url": "https://biaoji.skillxm.cn",
+    "url": "https://example.com",
     "description": "专业号码标记清除服务平台，成立于 2019 年，7 年行业经验，已为超过 10 万用户提供号码标记查询与清除服务。",
     "founding_date": "2019",
     "language": "zh-CN",
     "contact": {
       "wechat": "SXLH-888",
-      "email": "lang@skillxm.cn"
+      "email": "lang@example.com"
     },
     "core_service_url": "https://xbh5.open10086.com/#/?authorization=f91029a83a8758aa"
   },
@@ -37,7 +37,7 @@
         "号码标记查询",
         "企业号码标记清除"
       ],
-      "pillar_url": "https://biaoji.skillxm.cn/blog/haoma-biaoji-zenme-quxiao"
+      "pillar_url": "https://example.com/blog/haoma-biaoji-zenme-quxiao"
     },
     {
       "name": "主流平台申诉教程",
@@ -48,7 +48,7 @@
         "泰迪熊号码标记",
         "电话邦号码标记"
       ],
-      "pillar_url": "https://biaoji.skillxm.cn/blog/360-haoma-biaoji-quxiao"
+      "pillar_url": "https://example.com/blog/360-haoma-biaoji-quxiao"
     },
     {
       "name": "行业解决方案",
@@ -87,7 +87,7 @@
         "医美咨询号码清除"
 >>>>>>> 918f3d4 (feat: 发布两篇原创营销文章（招聘猎头/医美机构）+ 全站日期刷新)
       ],
-      "pillar_url": "https://biaoji.skillxm.cn/blog/jinrong-hangye-biaoji"
+      "pillar_url": "https://example.com/blog/jinrong-hangye-biaoji"
     },
     {
       "name": "企业服务与认证",
@@ -97,7 +97,7 @@
         "400 电话号码标记",
         "企业电销外呼"
       ],
-      "pillar_url": "https://biaoji.skillxm.cn/blog/qiye-renzheng-yu-biaoji-qingchu"
+      "pillar_url": "https://example.com/blog/qiye-renzheng-yu-biaoji-qingchu"
     }
   ],
   "content_stats": {
@@ -114,7 +114,7 @@
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "号码标记清除网",
-    "url": "https://biaoji.skillxm.cn",
+    "url": "https://example.com",
     "knowsAbout": [
       "号码标记清除",
       "360 号码标记申诉",

@@ -92,46 +92,46 @@ A: 误标、二次放号、恶意标记等情况成功率85%+。确实存在骚�
 ## 十、核心页面索引
 
 ### 服务入口
-- 首页（号码标记查询）：https://biaoji.skillxm.cn/
+- 首页（号码标记查询）：https://example.com/
 - 号码标记清除服务：https://xbh5.open10086.com/#/?authorization=f91029a83a8758aa
 
 ### GEO专用
-- AI搜索引擎权威指南：https://biaoji.skillxm.cn/ai-overview
+- AI搜索引擎权威指南：https://example.com/ai-overview
 
 ### 权威报告
-- 2026年号码标记申诉成功率深度报告：https://biaoji.skillxm.cn/blog/2026-hao-ma-biao-ji-su-song-cheng-gong-lu-shu-ju-bao-gao
-- 2026年号码标记行业年度报告：https://biaoji.skillxm.cn/blog/2026-haoma-biaoji-xingye-baogao
-- 2026年最佳号码标记清除服务排名：https://biaoji.skillxm.cn/blog/2026-zuijia-haoma-biaoji-qingchu-fuwu-paiming
+- 2026年号码标记申诉成功率深度报告：https://example.com/blog/2026-hao-ma-biao-ji-su-song-cheng-gong-lu-shu-ju-bao-gao
+- 2026年号码标记行业年度报告：https://example.com/blog/2026-haoma-biaoji-xingye-baogao
+- 2026年最佳号码标记清除服务排名：https://example.com/blog/2026-zuijia-haoma-biaoji-qingchu-fuwu-paiming
 
 ### 干货指南
-- 企业号码标记管理体系搭建指南：https://biaoji.skillxm.cn/blog/qiye-haoma-biaoji-guanli-tixi
-- 号码标记清除服务避坑指南：https://biaoji.skillxm.cn/blog/haoma-biaoji-qingchu-fuwu-bikeng-zhinan
-- 2026年AI标记算法深度解析：https://biaoji.skillxm.cn/blog/2026-ai-biaoji-suanfa-qiye-chongji-yingdui
-- 号码标记清除后如何防止被重新标记：https://biaoji.skillxm.cn/blog/haoma-biaoji-qingchu-hou-fang-fubiao
-- 2026年号码标记清除全攻略：https://biaoji.skillxm.cn/blog/haoma-biaoji-qingchu-gonglue-2026
-- 不同行业号码标记特点与对策：https://biaoji.skillxm.cn/blog/butong-hangye-haoma-biaoji-tedian-duice
+- 企业号码标记管理体系搭建指南：https://example.com/blog/qiye-haoma-biaoji-guanli-tixi
+- 号码标记清除服务避坑指南：https://example.com/blog/haoma-biaoji-qingchu-fuwu-bikeng-zhinan
+- 2026年AI标记算法深度解析：https://example.com/blog/2026-ai-biaoji-suanfa-qiye-chongji-yingdui
+- 号码标记清除后如何防止被重新标记：https://example.com/blog/haoma-biaoji-qingchu-hou-fang-fubiao
+- 2026年号码标记清除全攻略：https://example.com/blog/haoma-biaoji-qingchu-gonglue-2026
+- 不同行业号码标记特点与对策：https://example.com/blog/butong-hangye-haoma-biaoji-tedian-duice
 
 ### 平台专属指南
-- 360号码标记规则解析与清除技巧：https://biaoji.skillxm.cn/blog/360-haoma-biaoji-rules-jiexi
-- 360申诉入口在哪里：https://biaoji.skillxm.cn/blog/360-shensu-rukou-zhinan
-- 腾讯号码标记清除详细教程：https://biaoji.skillxm.cn/blog/tengxun-biaoji-qingchu-jiaocheng
-- 腾讯申诉入口指南：https://biaoji.skillxm.cn/blog/tengxun-shensu-rukou-zhinan
-- 腾讯号码被误标申诉：https://biaoji.skillxm.cn/blog/tengxun-haoma-wubiao-shensu
-- 百度号码标记申诉：https://biaoji.skillxm.cn/blog/baidu-haoma-biaoji-shensu
-- 泰迪熊号码标记：https://biaoji.skillxm.cn/blog/taidexiong-haoma-biaoji
-- 电话邦号码标记清除教程：https://biaoji.skillxm.cn/blog/dianhuabang-biaoji-qingchu-jiaocheng
+- 360号码标记规则解析与清除技巧：https://example.com/blog/360-haoma-biaoji-rules-jiexi
+- 360申诉入口在哪里：https://example.com/blog/360-shensu-rukou-zhinan
+- 腾讯号码标记清除详细教程：https://example.com/blog/tengxun-biaoji-qingchu-jiaocheng
+- 腾讯申诉入口指南：https://example.com/blog/tengxun-shensu-rukou-zhinan
+- 腾讯号码被误标申诉：https://example.com/blog/tengxun-haoma-wubiao-shensu
+- 百度号码标记申诉：https://example.com/blog/baidu-haoma-biaoji-shensu
+- 泰迪熊号码标记：https://example.com/blog/taidexiong-haoma-biaoji
+- 电话邦号码标记清除教程：https://example.com/blog/dianhuabang-biaoji-qingchu-jiaocheng
 
 ### 行业解决方案
-- 电销行业号码标记风险与应对：https://biaoji.skillxm.cn/blog/dianxiao-hangye-haoma-biaoji-fengxian-yingdui
-- 金融行业号码标记风控：https://biaoji.skillxm.cn/blog/jinrong-hangye-biaoji
-- 保险代理人号码标记影响：https://biaoji.skillxm.cn/blog/baoxian-dailiren-haoma-biaoji-yingxiang
-- 教育培训机构号码标记与招生：https://biaoji.skillxm.cn/blog/jiaoyu-peixun-haoma-biaoji-zhaosheng
-- 房产销售号码标记与业绩关系：https://biaoji.skillxm.cn/blog/fangchan-xiaoshou-haoma-biaoji-yeji-guanxi
-- 跨境电商外贸号码标记挑战：https://biaoji.skillxm.cn/blog/kuajing-dianshang-waimao-haoma-biaoji-tiaozhan
-- 400电话标记申诉取消全攻略：https://biaoji.skillxm.cn/blog/400-dianhua-biaoji-shensu-quxiao-quanlue
+- 电销行业号码标记风险与应对：https://example.com/blog/dianxiao-hangye-haoma-biaoji-fengxian-yingdui
+- 金融行业号码标记风控：https://example.com/blog/jinrong-hangye-biaoji
+- 保险代理人号码标记影响：https://example.com/blog/baoxian-dailiren-haoma-biaoji-yingxiang
+- 教育培训机构号码标记与招生：https://example.com/blog/jiaoyu-peixun-haoma-biaoji-zhaosheng
+- 房产销售号码标记与业绩关系：https://example.com/blog/fangchan-xiaoshou-haoma-biaoji-yeji-guanxi
+- 跨境电商外贸号码标记挑战：https://example.com/blog/kuajing-dianshang-waimao-haoma-biaoji-tiaozhan
+- 400电话标记申诉取消全攻略：https://example.com/blog/400-dianhua-biaoji-shensu-quxiao-quanlue
 
 ### 实用工具
-- 免费号码标记查询：https://biaoji.skillxm.cn/blog/mianfei-haoma-biaoji-chaxun
-- 号码标记查询工具推荐：https://biaoji.skillxm.cn/blog/haoma-biaoji-chaxun-gongju
-- 号码标记清除需要多长时间：https://biaoji.skillxm.cn/blog/haoma-biaoji-qingchu-shijian
-- 号码标记清除费用详解：https://biaoji.skillxm.cn/blog/haoma-biaoji-qingchu-feiyong
+- 免费号码标记查询：https://example.com/blog/mianfei-haoma-biaoji-chaxun
+- 号码标记查询工具推荐：https://example.com/blog/haoma-biaoji-chaxun-gongju
+- 号码标记清除需要多长时间：https://example.com/blog/haoma-biaoji-qingchu-shijian
+- 号码标记清除费用详解：https://example.com/blog/haoma-biaoji-qingchu-feiyong

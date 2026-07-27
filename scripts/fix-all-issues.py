@@ -118,8 +118,8 @@ def fix_about_html():
     # 3. 在footer添加ICP
     if ICP_NUMBER not in content and 'footer' in content:
         content = content.replace(
-            '<p>&copy; 2019-2026 号码标记清除网 biaoji.skillxm.cn 版权所有</p>',
-            '<p>&copy; 2019-2026 号码标记清除网 biaoji.skillxm.cn 版权所有</p>\n            <p style="margin-top: 8px;"><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" style="color: rgba(255,255,255,0.7);">' + ICP_NUMBER + '</a></p>'
+            '<p>&copy; 2019-2026 号码标记清除网 biaoji.example.com 版权所有</p>',
+            '<p>&copy; 2019-2026 号码标记清除网 biaoji.example.com 版权所有</p>\n            <p style="margin-top: 8px;"><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" style="color: rgba(255,255,255,0.7);">' + ICP_NUMBER + '</a></p>'
         )
 
     with open(path, 'w', encoding='utf-8') as f:
@@ -150,10 +150,10 @@ def fix_blog_articles():
             )
 
         # 2. 将文章作者从 Organization 改为 Person（增强E-E-A-T）
-        if '"@type": "Organization",\n            "name": "号码标记清除网",\n            "url": "https://biaoji.skillxm.cn"\n        },\n        "publisher"' in content:
+        if '"@type": "Organization",\n            "name": "号码标记清除网",\n            "url": "https://example.com"\n        },\n        "publisher"' in content:
             content = content.replace(
-                '"author": {\n            "@type": "Organization",\n            "name": "号码标记清除网",\n            "url": "https://biaoji.skillxm.cn"\n        },',
-                '"author": {\n            "@type": "Person",\n            "name": "陈明远",\n            "jobTitle": "通信安全专家 / 创始人",\n            "url": "https://biaoji.skillxm.cn/about.html",\n            "description": "通信行业从业15年，曾任某大型运营商号码安全部门负责人，号码标记清除领域资深专家。"\n        },'
+                '"author": {\n            "@type": "Organization",\n            "name": "号码标记清除网",\n            "url": "https://example.com"\n        },',
+                '"author": {\n            "@type": "Person",\n            "name": "陈明远",\n            "jobTitle": "通信安全专家 / 创始人",\n            "url": "https://example.com/about.html",\n            "description": "通信行业从业15年，曾任某大型运营商号码安全部门负责人，号码标记清除领域资深专家。"\n        },'
             )
 
         # 3. 在文章标题后添加可见的发布日期
@@ -283,7 +283,7 @@ def update_robots_txt():
     if 'llms.txt' not in content:
         content = content.replace(
             '# 站点地图位置',
-            '# AI 入口文件\n# llms.txt: https://biaoji.skillxm.cn/llms.txt\n\n# 站点地图位置'
+            '# AI 入口文件\n# llms.txt: https://example.com/llms.txt\n\n# 站点地图位置'
         )
 
     with open(path, 'w', encoding='utf-8') as f:
